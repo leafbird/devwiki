@@ -9,6 +9,7 @@
 ## Categories
 
 * [VersionControl](#versioncontrol)
+* [개발환경](#개발환경)
 * [TIL](#til)
 
 ---
@@ -16,6 +17,10 @@
 ### VersionControl
 
 - [git.md](VersionControl/git.md)
+
+### 개발환경
+
+- [windows terminal.md](개발환경/windows%20terminal.md)
 
 ### TIL
 
