@@ -8,18 +8,18 @@
 
 ## Categories
 
-* [TIL](#til)
 * [VersionControl](#versioncontrol)
+* [TIL](#til)
 
 ---
 
-### TIL
-
-- [240113.md](/Users/florist/dev/devwiki/TIL/240113.md)
-- [240114.md](/Users/florist/dev/devwiki/TIL/240114.md)
-
 ### VersionControl
 
-- [git.md](/Users/florist/dev/devwiki/VersionControl/git.md)
+- [git.md](VersionControl/git.md)
+
+### TIL
+
+- [240114.md](TIL/240114.md)
+- [240113.md](TIL/240113.md)
 
 <!-- sitemap end -->

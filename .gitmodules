@@ -1,3 +1,0 @@
-[submodule ".tocmaker"]
-	path = .tocmaker
-	url = git@github.com:leafbird/TocMaker
