@@ -11,19 +11,21 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 
 ## Categories
 
-* [VersionControl](#versioncontrol)
 * [개발환경](#개발환경)
+* [버전관리](#버전관리)
 * [TIL](#til)
 
 ---
 
-### VersionControl
-
-- [git.md](VersionControl/git.md)
-
 ### 개발환경
 
+- [redmine.md](개발환경/redmine.md)
 - [windows terminal.md](개발환경/windows%20terminal.md)
+
+### 버전관리
+
+- [git.md](버전관리/git.md)
+- [perforce.md](버전관리/perforce.md)
 
 ### TIL
 
