@@ -12,6 +12,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 ## Categories
 
 * [개발환경](#개발환경)
+* [디버깅](#디버깅)
 * [버전관리](#버전관리)
 * [TIL](#til)
 
@@ -19,8 +20,18 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 
 ### 개발환경
 
+- [github.md](개발환경/github.md)
 - [redmine.md](개발환경/redmine.md)
+- [Sublime Text.md](개발환경/Sublime%20Text.md)
+- [unity3d.md](개발환경/unity3d.md)
+- [vim.md](개발환경/vim.md)
+- [vimdiff.md](개발환경/vimdiff.md)
 - [windows terminal.md](개발환경/windows%20terminal.md)
+
+### 디버깅
+
+- [symbol server.md](디버깅/symbol%20server.md)
+- [windbg.md](디버깅/windbg.md)
 
 ### 버전관리
 
