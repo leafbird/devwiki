@@ -11,12 +11,23 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 
 ## Categories
 
+* [OS-Mac](#os-mac)
+* [OS-윈도우](#os-윈도우)
 * [개발환경](#개발환경)
 * [디버깅](#디버깅)
 * [버전관리](#버전관리)
 * [TIL](#til)
 
 ---
+
+### OS-Mac
+
+- [mac.md](OS-Mac/mac.md)
+
+### OS-윈도우
+
+- [BatchFile.md](OS-윈도우/BatchFile.md)
+- [hyper-v.md](OS-윈도우/hyper-v.md)
 
 ### 개발환경
 
