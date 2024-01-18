@@ -63,6 +63,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 
 ### TIL
 
+- [240118 - EnableWindowsTargeting.md](TIL/240118%20-%20EnableWindowsTargeting.md)
 - [240114 - csx로 sitemap maker 첫 작업.md](TIL/240114%20-%20csx로%20sitemap%20maker%20첫%20작업.md)
 - [240113 - dotnet-script 리서치.md](TIL/240113%20-%20dotnet-script%20리서치.md)
 
