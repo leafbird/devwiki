@@ -12,10 +12,12 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 ## Categories
 
 * [OS-Mac](#os-mac)
+* [OS-linux](#os-linux)
 * [OS-윈도우](#os-윈도우)
 * [개발환경](#개발환경)
 * [디버깅](#디버깅)
 * [버전관리](#버전관리)
+* [스크립트](#스크립트)
 * [TIL](#til)
 
 ---
@@ -23,6 +25,10 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 ### OS-Mac
 
 - [mac.md](OS-Mac/mac.md)
+
+### OS-linux
+
+- [linux 기본 명령어.md](OS-linux/linux%20기본%20명령어.md)
 
 ### OS-윈도우
 
@@ -48,6 +54,12 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 
 - [git.md](버전관리/git.md)
 - [perforce.md](버전관리/perforce.md)
+
+### 스크립트
+
+- [lua.md](스크립트/lua.md)
+- [PowerShell.md](스크립트/PowerShell.md)
+- [python.md](스크립트/python.md)
 
 ### TIL
 
