@@ -11,7 +11,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 
 ## Categories
 
-* [C++](#c++)
+* [Cpp](#cpp)
 * [OS-Mac](#os-mac)
 * [OS-linux](#os-linux)
 * [OS-윈도우](#os-윈도우)
@@ -24,11 +24,11 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 
 ---
 
-### C++
+### Cpp
 
-- [bitset.md](C++/bitset.md)
-- [cpp iostream.md](C++/cpp%20iostream.md)
-- [snippet.md](C++/snippet.md)
+- [bitset.md](Cpp/bitset.md)
+- [cpp iostream.md](Cpp/cpp%20iostream.md)
+- [snippet.md](Cpp/snippet.md)
 
 ### OS-Mac
 
