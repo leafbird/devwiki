@@ -26,58 +26,58 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 
 ### Cpp
 
-- [bitset.md](Cpp/bitset.md)
-- [cpp iostream.md](Cpp/cpp%20iostream.md)
-- [snippet.md](Cpp/snippet.md)
+- [bitset](Cpp/bitset.md)
+- [cpp iostream](Cpp/cpp%20iostream.md)
+- [snippet](Cpp/snippet.md)
 
 ### OS-Mac
 
-- [mac.md](OS-Mac/mac.md)
+- [mac](OS-Mac/mac.md)
 
 ### OS-linux
 
-- [linux 기본 명령어.md](OS-linux/linux%20기본%20명령어.md)
+- [linux 기본 명령어](OS-linux/linux%20기본%20명령어.md)
 
 ### OS-윈도우
 
-- [BatchFile.md](OS-윈도우/BatchFile.md)
-- [hyper-v.md](OS-윈도우/hyper-v.md)
+- [BatchFile](OS-윈도우/BatchFile.md)
+- [hyper-v](OS-윈도우/hyper-v.md)
 
 ### 개발환경
 
-- [github.md](개발환경/github.md)
-- [redmine.md](개발환경/redmine.md)
-- [Sublime Text.md](개발환경/Sublime%20Text.md)
-- [unity3d.md](개발환경/unity3d.md)
-- [vim.md](개발환경/vim.md)
-- [vimdiff.md](개발환경/vimdiff.md)
-- [windows terminal.md](개발환경/windows%20terminal.md)
+- [github](개발환경/github.md)
+- [redmine](개발환경/redmine.md)
+- [Sublime Text](개발환경/Sublime%20Text.md)
+- [unity3d](개발환경/unity3d.md)
+- [vim](개발환경/vim.md)
+- [vimdiff](개발환경/vimdiff.md)
+- [windows terminal](개발환경/windows%20terminal.md)
 
 ### 디버깅
 
-- [symbol server.md](디버깅/symbol%20server.md)
-- [windbg.md](디버깅/windbg.md)
+- [symbol server](디버깅/symbol%20server.md)
+- [windbg](디버깅/windbg.md)
 
 ### 버전관리
 
-- [git submodule.md](버전관리/git%20submodule.md)
-- [Git.md](버전관리/Git.md)
-- [perforce.md](버전관리/perforce.md)
+- [git submodule](버전관리/git%20submodule.md)
+- [git](버전관리/git.md)
+- [perforce](버전관리/perforce.md)
 
 ### 스크립트
 
-- [lua.md](스크립트/lua.md)
-- [PowerShell.md](스크립트/PowerShell.md)
-- [python.md](스크립트/python.md)
+- [lua](스크립트/lua.md)
+- [PowerShell](스크립트/PowerShell.md)
+- [python](스크립트/python.md)
 
 ### 웹 프로그래밍
 
-- [CORS.md](웹%20프로그래밍/CORS.md)
+- [CORS](웹%20프로그래밍/CORS.md)
 
 ### TIL
 
-- [240118 - EnableWindowsTargeting.md](TIL/240118%20-%20EnableWindowsTargeting.md)
-- [240114 - csx로 sitemap maker 첫 작업.md](TIL/240114%20-%20csx로%20sitemap%20maker%20첫%20작업.md)
-- [240113 - dotnet-script 리서치.md](TIL/240113%20-%20dotnet-script%20리서치.md)
+- [240118 - EnableWindowsTargeting](TIL/240118%20-%20EnableWindowsTargeting.md)
+- [240114 - csx로 sitemap maker 첫 작업](TIL/240114%20-%20csx로%20sitemap%20maker%20첫%20작업.md)
+- [240113 - dotnet-script 리서치](TIL/240113%20-%20dotnet-script%20리서치.md)
 
 <!-- sitemap end -->
