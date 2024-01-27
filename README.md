@@ -19,6 +19,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 * [디버깅](#디버깅)
 * [버전관리](#버전관리)
 * [스크립트](#스크립트)
+* [어피니티 포토](#어피니티-포토)
 * [웹 프로그래밍](#웹-프로그래밍)
 * [TIL](#til)
 
@@ -70,12 +71,17 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 - [PowerShell](스크립트/PowerShell.md)
 - [python](스크립트/python.md)
 
+### 어피니티 포토
+
+- [selection](어피니티%20포토/selection.md)
+
 ### 웹 프로그래밍
 
 - [CORS](웹%20프로그래밍/CORS.md)
 
 ### TIL
 
+- [240127 - csx 스트립트 패키징하기](TIL/240127%20-%20csx%20스트립트%20패키징하기.md)
 - [240118 - EnableWindowsTargeting](TIL/240118%20-%20EnableWindowsTargeting.md)
 - [240114 - csx로 sitemap maker 첫 작업](TIL/240114%20-%20csx로%20sitemap%20maker%20첫%20작업.md)
 - [240113 - dotnet-script 리서치](TIL/240113%20-%20dotnet-script%20리서치.md)
