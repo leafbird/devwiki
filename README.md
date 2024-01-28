@@ -12,15 +12,19 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 ## Categories
 
 * [Cpp](#cpp)
+* [Csharp](#csharp)
 * [OS-Mac](#os-mac)
 * [OS-linux](#os-linux)
 * [OS-윈도우](#os-윈도우)
-* [개발환경](#개발환경)
+* [Xml](#xml)
+* [데이터베이스](#데이터베이스)
 * [디버깅](#디버깅)
+* [미분류](#미분류)
 * [버전관리](#버전관리)
 * [스크립트](#스크립트)
 * [어피니티 포토](#어피니티-포토)
 * [웹 프로그래밍](#웹-프로그래밍)
+* [클라우드](#클라우드)
 * [TIL](#til)
 
 ---
@@ -28,8 +32,19 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 ### Cpp
 
 - [bitset](Cpp/bitset.md)
+- [cl](Cpp/cl.md)
 - [cpp iostream](Cpp/cpp%20iostream.md)
+- [d3d](Cpp/d3d.md)
+- [GetTickCount](Cpp/GetTickCount.md)
+- [Gyp to sln](Cpp/Gyp%20to%20sln.md)
 - [snippet](Cpp/snippet.md)
+- [zlib](Cpp/zlib.md)
+
+### Csharp
+
+- [CSharp](Csharp/CSharp.md)
+- [dotnet](Csharp/dotnet.md)
+- [WPF](Csharp/WPF.md)
 
 ### OS-Mac
 
@@ -37,27 +52,56 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 
 ### OS-linux
 
+- [노트북우분투설정](OS-linux/노트북우분투설정.md)
+- [busybox](OS-linux/busybox.md)
+- [crontab](OS-linux/crontab.md)
+- [docker](OS-linux/docker.md)
 - [linux 기본 명령어](OS-linux/linux%20기본%20명령어.md)
+- [linux 문제 해결](OS-linux/linux%20문제%20해결.md)
+- [linux 하드디스크 추가방법](OS-linux/linux%20하드디스크%20추가방법.md)
+- [raspberry pi](OS-linux/raspberry%20pi.md)
+- [samba](OS-linux/samba.md)
+- [SETUID](OS-linux/SETUID.md)
+- [ubuntu](OS-linux/ubuntu.md)
 
 ### OS-윈도우
 
 - [BatchFile](OS-윈도우/BatchFile.md)
 - [hyper-v](OS-윈도우/hyper-v.md)
+- [IIS](OS-윈도우/IIS.md)
+- [LargeAddressAware](OS-윈도우/LargeAddressAware.md)
+- [windows](OS-윈도우/windows.md)
+- [wsl](OS-윈도우/wsl.md)
 
-### 개발환경
+### Xml
 
-- [github](개발환경/github.md)
-- [redmine](개발환경/redmine.md)
-- [Sublime Text](개발환경/Sublime%20Text.md)
-- [unity3d](개발환경/unity3d.md)
-- [vim](개발환경/vim.md)
-- [vimdiff](개발환경/vimdiff.md)
-- [windows terminal](개발환경/windows%20terminal.md)
+- [xml](Xml/xml.md)
+- [xsd](Xml/xsd.md)
+
+### 데이터베이스
+
+- [MsSql](데이터베이스/MsSql.md)
+- [SQLite](데이터베이스/SQLite.md)
 
 ### 디버깅
 
 - [symbol server](디버깅/symbol%20server.md)
 - [windbg](디버깅/windbg.md)
+
+### 미분류
+
+- [devenv commandline](미분류/devenv%20commandline.md)
+- [github](미분류/github.md)
+- [redmine](미분류/redmine.md)
+- [slack bot setting](미분류/slack%20bot%20setting.md)
+- [socket](미분류/socket.md)
+- [ssh](미분류/ssh.md)
+- [Sublime Text](미분류/Sublime%20Text.md)
+- [Template Engine](미분류/Template%20Engine.md)
+- [unity3d](미분류/unity3d.md)
+- [vim](미분류/vim.md)
+- [vimdiff](미분류/vimdiff.md)
+- [windows terminal](미분류/windows%20terminal.md)
 
 ### 버전관리
 
@@ -77,7 +121,13 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 
 ### 웹 프로그래밍
 
+- [asp.net](웹%20프로그래밍/asp.net.md)
 - [CORS](웹%20프로그래밍/CORS.md)
+
+### 클라우드
+
+- [awscli](클라우드/awscli.md)
+- [azure](클라우드/azure.md)
 
 ### TIL
 
