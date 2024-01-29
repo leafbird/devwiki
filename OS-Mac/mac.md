@@ -1,5 +1,13 @@
 ## os 버전 확인
 
+## 개인 장비 설정
+
+#### 키를 오래 누르고 있을 때 대체캐릭터 입력이 아닌 반복입력으로 변경하기
+출처 : https://junho85.pe.kr/1462
+커맨드 : defaults write -g ApplePressAndHoldEnabled -bool false
+
+#### vim 사용 위해 한글 입력 중에 esc 누르면 영문으로 전환하기
+출처 : https://mkszero.com/@케이/VIM에서-ESC키-눌렀을때-자동으로-영문-전환-하기(macos,-몬터레이)
 
 ## 초기 설정
 
