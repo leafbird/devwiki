@@ -2,8 +2,7 @@
 
 개발에 관련된 메모를 적어둡니다.
 
-readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.md)을 참고해서 정리했고요. 손으로 적는 건 아니고 파일 목록을 기반으로 자동으로 적어주는 csx script를 만들어 생성했습니다.
-조만간 정리를 마치면 공개하겠습니다. 찡긋 ;)
+readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.md)을 참고해서 정리했고요. 손으로 적는 건 아니고 파일 목록을 기반으로 자동으로 적어주는 [csx script](https://github.com/leafbird/SitemapMaker.git)를 만들어 생성했습니다.
 
 ---
 
@@ -97,6 +96,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 - [socket](미분류/socket.md)
 - [ssh](미분류/ssh.md)
 - [Sublime Text](미분류/Sublime%20Text.md)
+- [Teamcity](미분류/Teamcity.md)
 - [Template Engine](미분류/Template%20Engine.md)
 - [unity3d](미분류/unity3d.md)
 - [vim](미분류/vim.md)
@@ -117,7 +117,8 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 
 ### 어피니티 포토
 
-- [selection](어피니티%20포토/selection.md)
+- [레이어 전체 색칠하기(배경색)](어피니티%20포토/레이어%20전체%20색칠하기(배경색).md)
+- [모서리가 둥근 사각형 선택](어피니티%20포토/모서리가%20둥근%20사각형%20선택.md)
 
 ### 웹 프로그래밍
 
@@ -127,7 +128,8 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.
 ### 클라우드
 
 - [awscli](클라우드/awscli.md)
-- [azure](클라우드/azure.md)
+- [azure-common](클라우드/azure-common.md)
+- [azure-vmClone](클라우드/azure-vmClone.md)
 
 ### TIL
 
