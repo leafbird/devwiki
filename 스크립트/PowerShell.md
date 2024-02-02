@@ -1,3 +1,46 @@
+## 변수가 null인지 확인하려면
+
+```powershell
+if ($variable -eq $null) {
+    Write-Host "변수는 null입니다."
+} else {
+    Write-Host "변수는 null이 아닙니다."
+}
+
+if (-not $variable) {
+    Write-Host "변수는 null입니다."
+} else {
+    Write-Host "변수는 null이 아닙니다."
+}
+
+if ($variable -ne $null) {
+    # 변수가 null이 아닌 경우에 수행할 작업
+}
+```
+
+## 변수의 타입을 확인하려면
+
+```powershell
+$variable = 42
+$typeName = $variable.GetType().Name
+Write-Host "변수의 타입은 $typeName 입니다."
+
+$variable = 3.14
+if ($variable -is [int]) {
+    Write-Host "변수는 정수입니다."
+} elseif ($variable -is [string]) {
+    Write-Host "변수는 문자열입니다."
+} else {
+    Write-Host "변수의 타입을 확인할 수 없습니다."
+}
+```
+
+## 환경변수 리스트 확인하기
+
+```powershell
+dir env:
+```
+
 ## 버전 확인하기
 
 출처 : https://stackoverflow.com/questions/1825585/determine-installed-powershell-version
