@@ -2,7 +2,7 @@
 
 개발에 관련된 메모를 적어둡니다.
 
-readme는 [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.md)을 참고해서 정리했고요. 손으로 적는 건 아니고 파일 목록을 기반으로 자동으로 적어주는 [csx script](https://github.com/leafbird/SitemapMaker.git)를 만들어 생성했습니다.
+readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 정리했고요. 손으로 적는 건 아니고 파일 목록을 기반으로 자동으로 적어주는 [csx script](https://github.com/leafbird/SitemapMaker.git)를 만들어 생성했습니다.
 
 ---
 
