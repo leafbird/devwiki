@@ -10,22 +10,23 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ## Categories
 
-* [Cpp](#cpp)
-* [Csharp](#csharp)
-* [OS-Mac](#os-mac)
-* [OS-linux](#os-linux)
-* [OS-윈도우](#os-윈도우)
-* [Xml](#xml)
-* [데이터베이스](#데이터베이스)
-* [디버깅](#디버깅)
-* [미분류](#미분류)
-* [버전관리](#버전관리)
-* [블로그](#블로그)
-* [스크립트](#스크립트)
-* [어피니티 포토](#어피니티-포토)
-* [웹 프로그래밍](#웹-프로그래밍)
-* [클라우드](#클라우드)
-* [TIL](#til)
+* [Cpp](#cpp) (8)
+* [Csharp](#csharp) (3)
+* [OS-Mac](#os-mac) (1)
+* [OS-linux](#os-linux) (11)
+* [OS-윈도우](#os-윈도우) (6)
+* [Vim](#vim) (2)
+* [Xml](#xml) (2)
+* [데이터베이스](#데이터베이스) (2)
+* [디버깅](#디버깅) (2)
+* [미분류](#미분류) (11)
+* [버전관리](#버전관리) (3)
+* [블로그](#블로그) (1)
+* [스크립트](#스크립트) (3)
+* [어피니티 포토](#어피니티-포토) (2)
+* [웹 프로그래밍](#웹-프로그래밍) (2)
+* [클라우드](#클라우드) (3)
+* [TIL](#til) (4)
 
 ---
 
@@ -73,6 +74,11 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [windows](OS-윈도우/windows.md)
 - [wsl](OS-윈도우/wsl.md)
 
+### Vim
+
+- [vim](Vim/vim.md)
+- [vimdiff](Vim/vimdiff.md)
+
 ### Xml
 
 - [xml](Xml/xml.md)
@@ -100,8 +106,6 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [Teamcity](미분류/Teamcity.md)
 - [Template Engine](미분류/Template%20Engine.md)
 - [unity3d](미분류/unity3d.md)
-- [vim](미분류/vim.md)
-- [vimdiff](미분류/vimdiff.md)
 - [windows terminal](미분류/windows%20terminal.md)
 
 ### 버전관리
