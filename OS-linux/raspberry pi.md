@@ -29,6 +29,17 @@ $ sudo apt install -y fonts-unfonts-core # 한글 읽기만 하려면 이것으�
 $ sudo apt install ibus-hangul # 한글 입력을 하려면 이것 필요 
 ```
 
+## swap 사이즈 늘리기
+
+참조 : https://bugwhale.tistory.com/entry/raspberrypi-raspbian-swap-memory
+
+``` shell
+free -h # 현재 용량 확인
+sudo service dephys-swapfile stop # 서비스 정지 
+sudo vi /etc/dephys-swapfile # 설정파일 열기 - CONF_SWAPSIZE를 1024로하면 1기가.
+sudo service dephys-swapfile start # 서비스 시작
+````
+
 ## apt source 변경
 
 ```
