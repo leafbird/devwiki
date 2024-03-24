@@ -19,14 +19,14 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 * [Xml](#xml) (2)
 * [데이터베이스](#데이터베이스) (2)
 * [디버깅](#디버깅) (2)
-* [미분류](#미분류) (11)
+* [미분류](#미분류) (12)
 * [버전관리](#버전관리) (3)
 * [블로그](#블로그) (1)
 * [스크립트](#스크립트) (3)
 * [어피니티 포토](#어피니티-포토) (2)
 * [웹 프로그래밍](#웹-프로그래밍) (2)
 * [클라우드](#클라우드) (3)
-* [TIL](#til) (4)
+* [TIL](#til) (5)
 
 ---
 
@@ -98,6 +98,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 - [devenv commandline](미분류/devenv%20commandline.md)
 - [github](미분류/github.md)
+- [graphql](미분류/graphql.md)
 - [redmine](미분류/redmine.md)
 - [slack bot setting](미분류/slack%20bot%20setting.md)
 - [socket](미분류/socket.md)
@@ -142,6 +143,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### TIL
 
+- [240324 - raspberryOS](TIL/240324%20-%20raspberryOS.md)
 - [240127 - csx 스트립트 패키징하기](TIL/240127%20-%20csx%20스트립트%20패키징하기.md)
 - [240118 - EnableWindowsTargeting](TIL/240118%20-%20EnableWindowsTargeting.md)
 - [240114 - csx로 sitemap maker 첫 작업](TIL/240114%20-%20csx로%20sitemap%20maker%20첫%20작업.md)
