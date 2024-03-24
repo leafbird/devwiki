@@ -35,9 +35,9 @@ $ sudo apt install ibus-hangul # 한글 입력을 하려면 이것 필요
 
 ``` shell
 free -h # 현재 용량 확인
-sudo service dephys-swapfile stop # 서비스 정지 
-sudo vi /etc/dephys-swapfile # 설정파일 열기 - CONF_SWAPSIZE를 1024로하면 1기가.
-sudo service dephys-swapfile start # 서비스 시작
+sudo service dphys-swapfile stop # 서비스 정지 
+sudo vi /etc/dphys-swapfile # 설정파일 열기 - CONF_SWAPSIZE를 1024로하면 1기가.
+sudo service dphys-swapfile start # 서비스 시작
 ````
 
 ## apt source 변경
