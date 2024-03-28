@@ -94,16 +94,6 @@ vim ~/.zshrc
 source ~/.zshrc # reboot 없이 수정내용을 바로 적용
 ```
 
-
-## 와이파이 문제 해결
-
-https://blog.naver.com/elepartsblog/221509219517
-https://blog.naver.com/elepartsblog/221509228144
-
-국가 설정에 따라 사용 가능한 주파수가 달라져서 장애가 발생한다. 
-wifi 국가를 US로 설정하고, iw phy 실행해서 사용 가능한 채널을 확인한 후 공유기 설정을 맞춰주면 2.4g는 사용 가능하다. 
-wifi 국가를 KR로 설정하고, 채널을 149, 153, 157, 161로 맞춰주면 5G도 사용 가능.
-
 ## 와이파이 설정 관련 명령어들
 https://wikidocs.net/3200
 
