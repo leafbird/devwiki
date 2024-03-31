@@ -49,7 +49,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 sudo usermod -aG docker ${USER} # 비루트 권한 실행 설정
 groups ${user} # pi의 소속 그룹 확인
-suto reboot now # 그룹정책 변경 적용을 위해 리붓
+sudo reboot now # 그룹정책 변경 적용을 위해 리붓
 ```
 
 ## install portainer
