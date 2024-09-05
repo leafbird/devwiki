@@ -36,10 +36,10 @@ git clone --recurse-submodules git@github.com:user/main-repo.git
 
 ```shell
 # 현재 상태 확인 (업데이트가 되었는지, 로컬 수정이 있는지, etc.)
-git submodules status
+git submodule status
 
 # 업데이트된 submodule의 상태를 최신화 하기
-git submodules update --remote
+git submodule update --remote
 ```
 
 #### 제거하기
