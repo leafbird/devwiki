@@ -10,23 +10,24 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ## Categories
 
-* [Cpp](#cpp) (8)
-* [Csharp](#csharp) (3)
-* [OS-Mac](#os-mac) (1)
-* [OS-linux](#os-linux) (11)
-* [OS-윈도우](#os-윈도우) (6)
-* [Vim](#vim) (2)
-* [Xml](#xml) (2)
-* [데이터베이스](#데이터베이스) (2)
-* [디버깅](#디버깅) (2)
-* [미분류](#미분류) (12)
-* [버전관리](#버전관리) (3)
-* [블로그](#블로그) (1)
-* [스크립트](#스크립트) (3)
-* [어피니티 포토](#어피니티-포토) (2)
-* [웹 프로그래밍](#웹-프로그래밍) (2)
-* [클라우드](#클라우드) (3)
-* [TIL](#til) (5)
+* [Cpp](#cpp)
+* [Csharp](#csharp)
+  * [Wpf](#wpf)
+* [OS-Mac](#os-mac)
+* [OS-linux](#os-linux)
+* [OS-윈도우](#os-윈도우)
+* [Vim](#vim)
+* [Xml](#xml)
+* [데이터베이스](#데이터베이스)
+* [디버깅](#디버깅)
+* [미분류](#미분류)
+* [버전관리](#버전관리)
+* [블로그](#블로그)
+* [스크립트](#스크립트)
+* [어피니티 포토](#어피니티-포토)
+* [웹 프로그래밍](#웹-프로그래밍)
+* [클라우드](#클라우드)
+* [TIL](#til)
 
 ---
 
@@ -45,7 +46,10 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 - [CSharp](Csharp/CSharp.md)
 - [dotnet](Csharp/dotnet.md)
-- [WPF](Csharp/WPF.md)
+
+#### Wpf
+
+- [WPF-old](Csharp/Wpf/WPF-old.md)
 
 ### OS-Mac
 
@@ -143,6 +147,8 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### TIL
 
+- [240919 - wpf margin and filtering](TIL/240919%20-%20wpf%20margin%20and%20filtering.md)
+- [240331 - confluence api v2](TIL/240331%20-%20confluence%20api%20v2.md)
 - [240324 - raspberryOS](TIL/240324%20-%20raspberryOS.md)
 - [240127 - csx 스트립트 패키징하기](TIL/240127%20-%20csx%20스트립트%20패키징하기.md)
 - [240118 - EnableWindowsTargeting](TIL/240118%20-%20EnableWindowsTargeting.md)
