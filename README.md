@@ -49,6 +49,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 #### Wpf
 
+- [이전 실행 창 크기 위치 기억하기](Csharp/Wpf/이전%20실행%20창%20크기%20위치%20기억하기.md)
 - [WPF-old](Csharp/Wpf/WPF-old.md)
 
 ### OS-Mac
