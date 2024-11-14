@@ -72,6 +72,7 @@ ex) 대상 경로에 존재하지 않는 파일이나 복사하려는 파일이 
     uname -a
     or
     grep . /etc/issue*
+	(centos) cat /etc/redhat-release
 
 ## 방화벽 포트 설정
 
