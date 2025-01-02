@@ -76,6 +76,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [hyper-v](OS-윈도우/hyper-v.md)
 - [IIS](OS-윈도우/IIS.md)
 - [LargeAddressAware](OS-윈도우/LargeAddressAware.md)
+- [windows terminal](OS-윈도우/windows%20terminal.md)
 - [windows](OS-윈도우/windows.md)
 - [wsl](OS-윈도우/wsl.md)
 
@@ -112,7 +113,6 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [Teamcity](미분류/Teamcity.md)
 - [Template Engine](미분류/Template%20Engine.md)
 - [unity3d](미분류/unity3d.md)
-- [windows terminal](미분류/windows%20terminal.md)
 
 ### 버전관리
 
