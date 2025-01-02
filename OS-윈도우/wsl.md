@@ -41,6 +41,34 @@ C:\Users\<유저이름>\AppData\Local\Packages\<배포판이름>\LocalState
 `%UserProfile%.wslconfig` 에 위치.
 
 
+## 파일 시스템
+
+#### 윈도우에서 리눅스 파일에 접근
+
+탐색기 주소 표시줄에 `\\wsl$` 입력. 실행중인 배포판이 없으면 폴더가 보이지 않는다. 
+
+#### 리눅스에서 윈도우 파일에 접근
+
+`/mnt/` 아래에 윈도우 드라이브가 기본으로 마운트 되어있다.
+
+
+## 값의 전달
+
+#### bash -> powershell
+
+```sh
+$ MESSAGE="Hello"; powershell.exe -noprofile -C "Write-Host $MESSAGE"
+Hello
+```
+
+실제 입력을 파워쉘로 파이핑 해야 하는 경우, `$input` 사용
+```sh
+$ echo "Stuart" | powershell.exe -noprofile -C 'Write-Host "Hello $input"'
+Hello Stuart
+```
+
+
+
 ## Troubleshooting
 
 #### WSL2에서 vmmem 메모리 이슈 해결하기
