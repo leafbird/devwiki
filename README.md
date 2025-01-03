@@ -16,6 +16,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 * [OS-Mac](#os-mac)
 * [OS-linux](#os-linux)
 * [OS-윈도우](#os-윈도우)
+  * [Wsl](#wsl)
 * [Vim](#vim)
 * [Xml](#xml)
 * [데이터베이스](#데이터베이스)
@@ -78,7 +79,11 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [LargeAddressAware](OS-윈도우/LargeAddressAware.md)
 - [windows terminal](OS-윈도우/windows%20terminal.md)
 - [windows](OS-윈도우/windows.md)
-- [wsl](OS-윈도우/wsl.md)
+
+#### Wsl
+
+- [wsl basic](OS-윈도우/Wsl/wsl%20basic.md)
+- [wsl tips](OS-윈도우/Wsl/wsl%20tips.md)
 
 ### Vim
 
