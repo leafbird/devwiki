@@ -35,3 +35,25 @@ sudo apt install wslu
 ### SSH 에이전트 전달
 
 1. 서비스에서 `OpenSSH Authentication`을 찾아 활성화 -> ssh-add 명령 사용 가능
+2. `npiperelay.exe`를 빌드하기 위해 go를 설치 : `winget install golang.go`
+3. npiperelay 빌드
+
+```sh
+git clone https://github.com/jstarks/npiperelay.git
+cd npiperelay
+go build -o npiperelay.exe
+```
+
+4. npiperelay.exe를 적당한 장소에 두고 Path에 포함.
+5. wsl 안에서 ln -s 이용해서 연결.
+
+```sh
+$ sudo ln -s /mnt/c/Users/<myuser>/go/bin/npiperelay.exe /usr/local/bin/npiperelay.exe
+```
+
+6. socat 설치 : `sudo apt install socat`
+
+```sh
+export SSH_AUTH_SOCK=$HOME/.ssh/agent.sock
+socat UNIX-LISTEN:$SSH_AUTH_SOCK,fork EXEC:"npiperelay.exe -ei -s //./pipe/openssh-ssh-agent",nofork &  
+```
