@@ -16,7 +16,8 @@ wsl -d docker-desktop cat /etc/issue
 wsl -u root whoami
 
 wsl --terminate ubuntu # 실행중인 배포판을 중단
-wsl --shutdown # wsl과 실해중인 모든 배포판 종료
+wsl --shutdown # wsl과 실행중인 모든 배포판 종료
+wsl --unregister ubuntu # 배포판 삭제. --install 로 설치한 배포판은 윈도우의 '프로그램 추가/삭제'에서도 제거 가능.
 ```
 
 ## 기본 정보
