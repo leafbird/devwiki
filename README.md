@@ -155,6 +155,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### TIL
 
+- [250126 - ubuntu server에 xfcd 설치](TIL/250126%20-%20ubuntu%20server에%20xfcd%20설치.md)
 - [240919 - wpf margin and filtering](TIL/240919%20-%20wpf%20margin%20and%20filtering.md)
 - [240331 - confluence api v2](TIL/240331%20-%20confluence%20api%20v2.md)
 - [240324 - raspberryOS](TIL/240324%20-%20raspberryOS.md)
