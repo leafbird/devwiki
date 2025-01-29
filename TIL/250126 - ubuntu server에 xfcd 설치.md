@@ -109,5 +109,5 @@ Run 'do-release-upgrade' to upgrade to it.
 ## xfce4 설치
 
 ```bash
-sudo apt install xfce4
+sudo apt install xfce4 lightdm
 ```
