@@ -13,6 +13,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 * [Cpp](#cpp)
 * [Csharp](#csharp)
   * [Wpf](#wpf)
+* [K8s](#k8s)
 * [OS-Mac](#os-mac)
 * [OS-linux](#os-linux)
 * [OS-윈도우](#os-윈도우)
@@ -52,6 +53,10 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 - [이전 실행 창 크기 위치 기억하기](Csharp/Wpf/이전%20실행%20창%20크기%20위치%20기억하기.md)
 - [WPF-old](Csharp/Wpf/WPF-old.md)
+
+### K8s
+
+- [Kiamol note](K8s/Kiamol%20note.md)
 
 ### OS-Mac
 
@@ -124,7 +129,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 ### 버전관리
 
 - [git submodule](버전관리/git%20submodule.md)
-- [Git](버전관리/Git.md)
+- [git](버전관리/git.md)
 - [perforce](버전관리/perforce.md)
 
 ### 블로그
