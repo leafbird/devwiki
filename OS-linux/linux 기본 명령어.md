@@ -2,7 +2,11 @@
 
 ## 리눅스 배포판 이름 확인하는 명령 
 
-	grep . /etc/issue*
+```
+uname -a
+lsb_release -a
+cat /etc/os-release
+```
 
 ## cpu / 메모리 사용량 확인 
 
