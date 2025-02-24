@@ -29,6 +29,23 @@ root 접근을 기준으로 할 때, /root가 개인 폴더(~)가 된다. 이곳
     
     PATH=/opt/bin:/opt/sbin:$PATH 추가
 
+### ipkg 설치 2회차 - 2025. 2. 24
+
+gpt의 도움으로 쉽게 설치했다. script 주소는 이전의 것을 사용
+```sh
+wget http://ipkg.nslu2-linux.org/feeds/optware/syno-e500/cross/unstable/syno-e500-bootstrap_1.2-7_powerpc.xsh -O /tmp/bootstrap.sh
+sudo sh /tmp/bootstrap.sh
+
+# PATH 설정
+echo 'export PATH=/opt/bin:/opt/sbin:$PATH' >> ~/.profile
+echo 'export LD_LIBRARY_PATH=/opt/lib:$LD_LIBRARY_PATH' >> ~/.profile
+source ~/.profile
+
+# 목록 업데이트
+sudo ipkg update
+sudo ipkg upgrade
+```
+
 ### vim 설치
 
 ipkg를 이용해서 설치한다. 
