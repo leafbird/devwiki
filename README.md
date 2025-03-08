@@ -134,7 +134,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 ### 버전관리
 
 - [git submodule](버전관리/git%20submodule.md)
-- [Git](버전관리/Git.md)
+- [git](버전관리/git.md)
 - [perforce](버전관리/perforce.md)
 
 ### 블로그
@@ -165,6 +165,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### TIL
 
+- [250308 - arch tty 설정](TIL/250308%20-%20arch%20tty%20설정.md)
 - [250126 - ubuntu server에 xfcd 설치](TIL/250126%20-%20ubuntu%20server에%20xfcd%20설치.md)
 - [240919 - wpf margin and filtering](TIL/240919%20-%20wpf%20margin%20and%20filtering.md)
 - [240331 - confluence api v2](TIL/240331%20-%20confluence%20api%20v2.md)
