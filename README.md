@@ -16,6 +16,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 * [K8s](#k8s)
 * [OS-Mac](#os-mac)
 * [OS-linux](#os-linux)
+  * [mount](#mount)
 * [OS-윈도우](#os-윈도우)
   * [Wsl](#wsl)
 * [Vim](#vim)
@@ -71,11 +72,15 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [linux 기본 명령어](OS-linux/linux%20기본%20명령어.md)
 - [linux 네트워크 관련 명령](OS-linux/linux%20네트워크%20관련%20명령.md)
 - [linux 문제 해결](OS-linux/linux%20문제%20해결.md)
-- [linux 하드디스크 추가방법](OS-linux/linux%20하드디스크%20추가방법.md)
 - [raspberry pi](OS-linux/raspberry%20pi.md)
 - [samba](OS-linux/samba.md)
 - [SETUID](OS-linux/SETUID.md)
 - [ubuntu](OS-linux/ubuntu.md)
+
+#### mount
+
+- [하드디스크 추가마운트하기](OS-linux/mount/하드디스크%20추가마운트하기.md)
+- [linux 하드디스크 추가방법](OS-linux/mount/linux%20하드디스크%20추가방법.md)
 
 ### OS-윈도우
 
@@ -129,7 +134,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 ### 버전관리
 
 - [git submodule](버전관리/git%20submodule.md)
-- [git](버전관리/git.md)
+- [Git](버전관리/Git.md)
 - [perforce](버전관리/perforce.md)
 
 ### 블로그
