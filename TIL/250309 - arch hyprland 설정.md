@@ -67,3 +67,15 @@ input {
     repeat_rate = 30
 }
 ```
+
+## 런처, 상태바
+
+```sh
+sudo pacman -S waybar wofi
+sudo pacman -S ttf-font-awesome # waybar 아이콘 폰트
+sudo pacman -S ghostty # 터미널
+sudo pacman -S nautilus # 파일 관리자
+
+yay -S hypershot grim slurp # 스크린샷
+yay -S swaync # notification
+```
