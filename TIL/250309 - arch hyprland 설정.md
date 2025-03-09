@@ -78,4 +78,5 @@ sudo pacman -S nautilus # 파일 관리자
 
 yay -S hypershot grim slurp # 스크린샷
 yay -S swaync # notification
+yay -S hyperlock # lockscreen
 ```
