@@ -165,6 +165,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### TIL
 
+- [250309 - arch hyprland 설정](TIL/250309%20-%20arch%20hyprland%20설정.md)
 - [250308 - arch tty 설정](TIL/250308%20-%20arch%20tty%20설정.md)
 - [250126 - ubuntu server에 xfcd 설치](TIL/250126%20-%20ubuntu%20server에%20xfcd%20설치.md)
 - [240919 - wpf margin and filtering](TIL/240919%20-%20wpf%20margin%20and%20filtering.md)
