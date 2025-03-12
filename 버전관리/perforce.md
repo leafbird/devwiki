@@ -6,6 +6,10 @@ https://www.perforce.com/manuals/p4sag/Content/P4SAG/superuser.basic.auth.ticket
 티켓 방식이 아니라 P4PASSWD를 쓰면서, md5 해쉬만으로 설정할 수도 있다.
 https://community.perforce.com/s/article/3413
 
+```pwsh
+p4 set P4PASSWD=73acd... #md5 해쉬값
+```
+
 ## diff / merge 툴에 utf8 인코딩 설정하기 
 
 argument의 가장 앞에 `-C utf8`을 붙인다. 
