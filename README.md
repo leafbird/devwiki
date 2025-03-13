@@ -72,6 +72,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [linux 기본 명령어](OS-linux/linux%20기본%20명령어.md)
 - [linux 네트워크 관련 명령](OS-linux/linux%20네트워크%20관련%20명령.md)
 - [linux 문제 해결](OS-linux/linux%20문제%20해결.md)
+- [proxmox설정](OS-linux/proxmox설정.md)
 - [raspberry pi](OS-linux/raspberry%20pi.md)
 - [samba](OS-linux/samba.md)
 - [SETUID](OS-linux/SETUID.md)
