@@ -65,7 +65,6 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### OS-linux
 
-- [노트북우분투설정](OS-linux/노트북우분투설정.md)
 - [busybox](OS-linux/busybox.md)
 - [crontab](OS-linux/crontab.md)
 - [docker](OS-linux/docker.md)
@@ -76,6 +75,8 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [raspberry pi](OS-linux/raspberry%20pi.md)
 - [samba](OS-linux/samba.md)
 - [SETUID](OS-linux/SETUID.md)
+- [ubuntu desktop 설정](OS-linux/ubuntu%20desktop%20설정.md)
+- [ubuntu server 설정](OS-linux/ubuntu%20server%20설정.md)
 - [ubuntu](OS-linux/ubuntu.md)
 
 #### mount
