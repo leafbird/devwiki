@@ -6,10 +6,29 @@
 sudo apt update && sudo apt -y upgrade && sudo apt -y autoremove
 
 # zsh 및 주 사용 패키지
-sudo apt -y install zsh git htop btop neovim
+sudo apt install -y zsh git htop btop stow curl eza bat zoxide
+sudo apt install -y software-properties-common # for add-apt-repository
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# zsh-completions
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
+
+# zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# starship
+curl -fsSL https://starship.rs/install.sh | bash
+
+# fastfetch
+sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
+sudo apt update
+
+sudo apt install fastfetch
 
 # 한국어 언어 팩
 sudo apt -y install language-pack-ko
@@ -22,3 +41,48 @@ sudo apt -y install fonts-unfonts-core fonts-unfonts-extra fonts-nanum fonts-nan
 # fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 bash ~/.fzf/install
+
+# dotfiles
+git clone https://github.com/leafbird/dotfiles ~/dotfiles
+bash ~/dotfiles/script/setup.sh
+
+# neovim
+sudo apt -y install neovim build-essential fd-find ripgrep # build-essential for gcc
+
+# lazygit
+LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | \grep -Po '"tag_name": *"v\K[^"]*')
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
+tar xf lazygit.tar.gz lazygit
+sudo install lazygit -D -t /usr/local/bin/
+
+# docker --------------------------------------------
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+sudo apt-get update
+
+# Install Docker:
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# sudo 명령 없이 docker 실행 가능하게 하기
+sudo usermod -aG docker $USER
+logout
+
+# go, lazydocker --------------------------------------------
+sudo apt -y install golang
+go version
+
+go install github.com/jesseduffield/lazydocker@latest
+echo 'export PATH="$HOME/go/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+lazydocker --version
+```
