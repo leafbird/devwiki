@@ -8,6 +8,10 @@ sudo apt update && sudo apt -y upgrade && sudo apt -y autoremove
 # zsh 및 주 사용 패키지
 sudo apt install -y zsh git htop btop stow curl eza bat zoxide
 sudo apt install -y software-properties-common # for add-apt-repository
+sudo apt install -y net-tools # ifconfig, netstat, ...
+
+# batcat 대신 bat 사용
+sudo ln -s /usr/bin/batcat /usr/bin/bat
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

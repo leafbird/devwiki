@@ -38,7 +38,8 @@ sudo apt install wslu
 2. `npiperelay.exe`를 빌드하기 위해 go를 설치 : `winget install golang.go`
 3. npiperelay 빌드
 
-```sh
+```pwsh
+# note : WSL 아니고 윈도우 파워쉘에서 실행합니다.
 git clone https://github.com/jstarks/npiperelay.git
 cd npiperelay
 go build -o npiperelay.exe
