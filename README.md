@@ -13,6 +13,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 * [Cpp](#cpp)
 * [Csharp](#csharp)
   * [Wpf](#wpf)
+* [Github](#github)
 * [K8s](#k8s)
 * [OS-Mac](#os-mac)
 * [OS-linux](#os-linux)
@@ -54,6 +55,11 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 - [이전 실행 창 크기 위치 기억하기](Csharp/Wpf/이전%20실행%20창%20크기%20위치%20기억하기.md)
 - [WPF-old](Csharp/Wpf/WPF-old.md)
+
+### Github
+
+- [github nuget package registry](Github/github%20nuget%20package%20registry.md)
+- [github](Github/github.md)
 
 ### K8s
 
@@ -122,7 +128,6 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 ### 미분류
 
 - [devenv commandline](미분류/devenv%20commandline.md)
-- [github](미분류/github.md)
 - [graphql](미분류/graphql.md)
 - [redmine](미분류/redmine.md)
 - [slack bot setting](미분류/slack%20bot%20setting.md)
