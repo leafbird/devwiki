@@ -58,7 +58,7 @@ dotnet nuget add source "https://nuget.pkg.github.com/StudioBside/index.json" \
 
 ### 윈도우 아닌 경우 초기설정
 
-linux인 경우 최초 한 번 $PATH에 경로 등록 필요. macOs와 호환위해 $HOME 변수 사용
+linux인 경우 최초 한 번 `$PATH`에 경로 등록 필요. macOs와 호환위해 $HOME 변수 사용
 
 ```sh
 cat << \EOF >> ~/.zshrc
