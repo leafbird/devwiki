@@ -9,6 +9,10 @@ https://xangmin.tistory.com/16
 ```
 xset r rate 180 # 키보드 반복속도 향상
 
+# gnome 환경 키보드 반속속도 설정 (~/.xprofile에 추가)
+gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 30
+gsettings set org.gnome.desktop.peripherals.keyboard delay 350
+
 suto apt install htop
 sudo apt install git # git 설치
 git clone https://github.com/leafbird/dotfiles.git
