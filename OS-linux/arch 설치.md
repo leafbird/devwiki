@@ -213,3 +213,56 @@ exit
 umount -R /mnt
 reboot
 ```
+
+# 개인 설정
+
+```sh
+# yay 설치
+git clone https://aur.archlinux.org/yay-bin
+cd yay-bin
+makepkg -si --noconfirm
+cd ..
+rm -rf yay-bin
+
+# fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+bash ~/.fzf/install
+
+# utils...
+sudo pacman -S zoxide fastfetch bat ripgrep fd stow btop htop eza 
+sudo pacman -S yazi lazygit
+sudo pacman -S net-tools # ifconfig, netstat, ...
+sudo pacman -S hostname
+
+# dotfiles
+git clone https://github.com/leafbird/dotfiles ~/dotfiles
+bash ~/dotfiles/script/setup.sh
+
+# oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# zsh-completions
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
+
+# zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# starship
+curl -fsSL https://starship.rs/install.sh | sh
+
+# docker 
+sudo pacman -S docker
+sudo systemctl enable docker
+sudo systemctl start docker
+
+sudo usermod -aG docker $USER # docker 그룹에 추가
+sudo systemctl restart docker
+
+sudo systemctl status docker # docker 상태 확인
+sudo docker run hello-world # docker 설치 확인 (sudo 빼고 실행하려면 로그아웃 후 다시 로그인 해야 함)
+
+yay -S lazydocker # lazydocker 설치
+```
