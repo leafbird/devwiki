@@ -93,6 +93,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 ### OS-윈도우
 
 - [BatchFile](OS-윈도우/BatchFile.md)
+- [diskpart](OS-윈도우/diskpart.md)
 - [hyper-v](OS-윈도우/hyper-v.md)
 - [IIS](OS-윈도우/IIS.md)
 - [LargeAddressAware](OS-윈도우/LargeAddressAware.md)
