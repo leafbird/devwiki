@@ -232,7 +232,7 @@ bash ~/.fzf/install
 sudo pacman -S zoxide fastfetch bat ripgrep fd stow btop htop eza 
 sudo pacman -S yazi lazygit
 sudo pacman -S net-tools # ifconfig, netstat, ...
-sudo pacman -S hostname
+sudo pacman -S nodejs
 
 # dotfiles
 git clone https://github.com/leafbird/dotfiles ~/dotfiles
