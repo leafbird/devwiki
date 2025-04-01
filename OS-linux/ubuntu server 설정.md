@@ -53,6 +53,10 @@ bash ~/dotfiles/script/setup.sh
 # neovim
 sudo apt -y install neovim build-essential fd-find ripgrep # build-essential for gcc
 
+# fdfind 대신 fd 사용
+#sudo ln -s /usr/bin/fdfind /usr/bin/fd
+sudo ln -s /usr/lib/cargo/bin/fd /usr/bin/fd
+
 # lazygit
 LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | \grep -Po '"tag_name": *"v\K[^"]*')
 curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
