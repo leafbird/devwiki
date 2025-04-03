@@ -71,6 +71,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### OS-linux
 
+- [arch 설치](OS-linux/arch%20설치.md)
 - [busybox](OS-linux/busybox.md)
 - [crontab](OS-linux/crontab.md)
 - [docker](OS-linux/docker.md)
@@ -142,7 +143,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 ### 버전관리
 
 - [git submodule](버전관리/git%20submodule.md)
-- [git](버전관리/git.md)
+- [Git](버전관리/Git.md)
 - [perforce](버전관리/perforce.md)
 
 ### 블로그
@@ -173,6 +174,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### TIL
 
+- [250403 - jwt](TIL/250403%20-%20jwt.md)
 - [250309 - arch hyprland 설정](TIL/250309%20-%20arch%20hyprland%20설정.md)
 - [250308 - arch tty 설정](TIL/250308%20-%20arch%20tty%20설정.md)
 - [250126 - ubuntu server에 xfcd 설치](TIL/250126%20-%20ubuntu%20server에%20xfcd%20설치.md)
