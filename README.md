@@ -63,6 +63,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### K8s
 
+- [k8s 설치 로그](K8s/k8s%20설치%20로그.md)
 - [Kiamol note](K8s/Kiamol%20note.md)
 
 ### OS-Mac
@@ -82,6 +83,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [raspberry pi](OS-linux/raspberry%20pi.md)
 - [samba](OS-linux/samba.md)
 - [SETUID](OS-linux/SETUID.md)
+- [swap](OS-linux/swap.md)
 - [ubuntu desktop 설정](OS-linux/ubuntu%20desktop%20설정.md)
 - [ubuntu server 설정](OS-linux/ubuntu%20server%20설정.md)
 - [ubuntu](OS-linux/ubuntu.md)
