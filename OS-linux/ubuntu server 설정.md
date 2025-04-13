@@ -2,6 +2,12 @@
 
 ```sh
 
+# root만 있고 일반 계정이 없다면 계정 생성
+sudo adduser florist
+sudo usermod -aG sudo florist
+su - florist
+sudo echo "이 계정은 sudo가 됩니다"
+
 # 패키지 업데이트, 업그레이드, 자동 삭제
 sudo apt update && sudo apt -y upgrade && sudo apt -y autoremove
 
