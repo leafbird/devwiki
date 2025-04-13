@@ -85,12 +85,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo usermod -aG docker $USER
 logout
 
-# go, lazydocker --------------------------------------------
-sudo apt -y install golang
-go version
-
-go install github.com/jesseduffield/lazydocker@latest
-echo 'export PATH="$HOME/go/bin:$PATH"' >> ~/.zshrc
-source ~/.zshrc
+# lazydocker --------------------------------------------
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+sudo ln -s ~/.local/bin/lazydocker /usr/bin/lazydocker
 lazydocker --version
 ```
