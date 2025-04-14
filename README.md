@@ -145,7 +145,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 ### 버전관리
 
 - [git submodule](버전관리/git%20submodule.md)
-- [Git](버전관리/Git.md)
+- [git](버전관리/git.md)
 - [perforce](버전관리/perforce.md)
 
 ### 블로그
@@ -176,6 +176,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### TIL
 
+- [250413 - k3s on lxc](TIL/250413%20-%20k3s%20on%20lxc.md)
 - [250403 - jwt](TIL/250403%20-%20jwt.md)
 - [250309 - arch hyprland 설정](TIL/250309%20-%20arch%20hyprland%20설정.md)
 - [250308 - arch tty 설정](TIL/250308%20-%20arch%20tty%20설정.md)
