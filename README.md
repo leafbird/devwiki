@@ -176,6 +176,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### TIL
 
+- [250428 - powershell module](TIL/250428%20-%20powershell%20module.md)
 - [250425 - k8s nodeport](TIL/250425%20-%20k8s%20nodeport.md)
 - [250419 - colima](TIL/250419%20-%20colima.md)
 - [250413 - k3s on lxc](TIL/250413%20-%20k3s%20on%20lxc.md)
