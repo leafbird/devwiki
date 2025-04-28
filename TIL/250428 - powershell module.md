@@ -38,3 +38,15 @@ Register-PSRepository -Name 'MyCompanyRepo' `
 
 Install-Module -Name 'PsBside' -Repository 'MyCompanyRepo'
 ```
+
+## 모듈 관련 추가 명령들
+
+```powershell
+
+Get-Module -ListAvailable   # 모듈 목록 보기 : 사용 가능한 모든 모듈
+Get-Module                  # 모듈 목록 보기 : 현재 세션에서 사용 중인 모듈
+Remove-Module -Name 'ModuleName' -Force # 모듈 강제 삭제
+
+Get-PSRepository                         # 등록된 PSRepository 목록 보기
+Unregister-PSRepository -Name 'RepoName' # PSRepository 등록 해제
+```
