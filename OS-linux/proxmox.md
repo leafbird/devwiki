@@ -43,3 +43,21 @@ sudo make install
 ```bash
 sudo apt remove neovim
 ```
+
+## ubuntu vm에 qemu-guest-agent 설치
+
+```bash
+sudo apt install qemu-guest-agent
+```
+
+## cluster 삭제
+
+```bash
+systemctl stop pve-cluster corosync
+pmxcfs -l
+rm -r /etc/pve/corosync.conf
+rm -r /etc/corosync/*
+killall -9 corosync
+umount /etc/pve
+systemctl restart pve-cluster
+```
