@@ -79,6 +79,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [linux 기본 명령어](OS-linux/linux%20기본%20명령어.md)
 - [linux 네트워크 관련 명령](OS-linux/linux%20네트워크%20관련%20명령.md)
 - [linux 문제 해결](OS-linux/linux%20문제%20해결.md)
+- [proxmox](OS-linux/proxmox.md)
 - [proxmox설정](OS-linux/proxmox설정.md)
 - [raspberry pi](OS-linux/raspberry%20pi.md)
 - [samba](OS-linux/samba.md)
@@ -145,7 +146,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 ### 버전관리
 
 - [git submodule](버전관리/git%20submodule.md)
-- [Git](버전관리/Git.md)
+- [git](버전관리/git.md)
 - [perforce](버전관리/perforce.md)
 
 ### 블로그
@@ -176,6 +177,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### TIL
 
+- [250430 - k3s on baremetal](TIL/250430%20-%20k3s%20on%20baremetal.md)
 - [250428 - powershell module](TIL/250428%20-%20powershell%20module.md)
 - [250425 - k8s nodeport](TIL/250425%20-%20k8s%20nodeport.md)
 - [250419 - colima](TIL/250419%20-%20colima.md)
