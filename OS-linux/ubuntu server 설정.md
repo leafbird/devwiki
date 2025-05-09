@@ -96,3 +96,11 @@ curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/i
 sudo ln -s ~/.local/bin/lazydocker /usr/bin/lazydocker
 lazydocker --version
 ```
+
+# ssh port 변경
+```sh
+sudo nvim /etc/ssh/sshd_config
+# Port 22 
+Port 23
+sudo systemctl restart sshd
+```
