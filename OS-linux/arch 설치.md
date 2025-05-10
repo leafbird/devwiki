@@ -271,3 +271,49 @@ sudo docker run hello-world # docker 설치 확인 (sudo 빼고 실행하려면 
 
 yay -S lazydocker # lazydocker 설치
 ```
+
+## pacman 기본적인 명령어 정리
+
+```sh
+sudo pacman -Syu # 시스템 업데이트
+sudo pacman -Syy # 패키지 데이터베이스 업데이트
+sudo pacman -Syyu # 시스템 업데이트
+
+sudo pacman -S <package_name> # 패키지 설치
+sudo pacman -Rns <package_name> # 패키지와 의존성 패키지 삭제   
+
+sudo pacman -Q # 설치된 패키지 목록 확인
+sudo pacman -Qe # 명시적으로 설치한 패키지 목록 확인
+sudo pacman -Qs <package_name> # 설치된 패키지 검색
+
+sudo pacman -Ss <package_name> # 패키지 검색    
+sudo pacman -Qi <package_name> # 패키지 정보 확인
+sudo pacman -Ql <package_name> # 패키지 파일 목록 확인  
+```
+
+## yay 기본적인 명령어 정리
+
+```sh
+yay -Syu # 시스템 전체 업데이트 (공식 저장소 + AUR)
+yay -Sua # AUR 패키지만 업데이트
+yay -Syyu # 시스템 강제 업데이트 (데이터베이스 새로고침 포함)
+
+yay -S <package_name> # 패키지 설치 (공식 저장소 또는 AUR)
+yay -Rns <package_name> # 패키지와 의존성 패키지 삭제
+
+yay # 시스템 업데이트 인터랙티브 모드
+yay <package_name> # 패키지 검색 및 설치 인터랙티브 모드
+
+yay -Ss <package_name> # 패키지 검색 (공식 저장소 + AUR)
+yay -Si <package_name> # 패키지 정보 확인
+yay -Ql <package_name> # 패키지 파일 목록 확인
+
+yay -Ps # yay 통계 정보 표시
+yay -Yc # 사용하지 않는 의존성 패키지 정리
+yay -G <package_name> # PKGBUILD 다운로드 (수정 가능)
+
+# pacman과 동일하게 작동하는 명령어
+yay -Q # 설치된 패키지 목록 확인
+yay -Qe # 명시적으로 설치한 패키지 목록 확인
+yay -Qs <package_name> # 설치된 패키지 검색
+```
