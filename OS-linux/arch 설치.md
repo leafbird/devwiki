@@ -232,7 +232,9 @@ bash ~/.fzf/install
 sudo pacman -S zoxide fastfetch bat ripgrep fd stow btop htop eza 
 sudo pacman -S yazi lazygit
 sudo pacman -S net-tools # ifconfig, netstat, ...
+sudo pacman -S inetutils # hostname, ... 
 sudo pacman -S nodejs
+
 
 # dotfiles
 git clone https://github.com/leafbird/dotfiles ~/dotfiles
@@ -252,6 +254,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 # starship
 curl -fsSL https://starship.rs/install.sh | sh
+
+# proxmox 에서 vm으로 설치한 경우만 
+sudo pacman -S qemu-guest-agent
 
 # docker 
 sudo pacman -S docker
