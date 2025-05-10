@@ -317,3 +317,10 @@ yay -Q # 설치된 패키지 목록 확인
 yay -Qe # 명시적으로 설치한 패키지 목록 확인
 yay -Qs <package_name> # 설치된 패키지 검색
 ```
+
+## vm templet에서 복사한 뒤 hostname 변경할 떄
+
+```sh
+sudo vim /etc/hostname
+sudo reboot now
+```
