@@ -31,6 +31,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 * [어피니티 포토](#어피니티-포토)
 * [웹 프로그래밍](#웹-프로그래밍)
 * [클라우드](#클라우드)
+* [하드웨어](#하드웨어)
 * [TIL](#til)
 
 ---
@@ -174,6 +175,10 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [awscli](클라우드/awscli.md)
 - [azure-common](클라우드/azure-common.md)
 - [azure-vmClone](클라우드/azure-vmClone.md)
+
+### 하드웨어
+
+- [디스크파티션](하드웨어/디스크파티션.md)
 
 ### TIL
 
