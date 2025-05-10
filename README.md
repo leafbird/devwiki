@@ -74,6 +74,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 ### OS-linux
 
 - [arch 설치](OS-linux/arch%20설치.md)
+- [arch on MBR partition](OS-linux/arch%20on%20MBR%20partition.md)
 - [busybox](OS-linux/busybox.md)
 - [crontab](OS-linux/crontab.md)
 - [docker](OS-linux/docker.md)
@@ -134,7 +135,6 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 ### 미분류
 
 - [devenv commandline](미분류/devenv%20commandline.md)
-- [graphql](미분류/graphql.md)
 - [redmine](미분류/redmine.md)
 - [slack bot setting](미분류/slack%20bot%20setting.md)
 - [socket](미분류/socket.md)
