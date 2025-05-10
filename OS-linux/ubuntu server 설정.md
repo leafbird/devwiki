@@ -97,10 +97,31 @@ sudo ln -s ~/.local/bin/lazydocker /usr/bin/lazydocker
 lazydocker --version
 ```
 
-# ssh port 변경
+## ssh port 변경
 ```sh
 sudo nvim /etc/ssh/sshd_config
 # Port 22 
 Port 23
 sudo systemctl restart sshd
+```
+
+## 고정 IP 설정
+```sh 
+sudo nvim /etc/netplan/00-installer-config.yaml
+```
+
+```yaml
+network:
+  version: 2
+  ethernets:
+    ens18: # 이더넷 인터페이스 이름
+      dhcp4: no
+      addresses:
+      - 192.168.50.21/24 # 고정 IP 주소
+      routes:
+      - to: default
+        via: 192.168.50.1
+      nameservers:
+        addresses:
+        - 8.8.8.8
 ```
