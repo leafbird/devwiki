@@ -80,6 +80,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [docker](OS-linux/docker.md)
 - [linux 기본 명령어](OS-linux/linux%20기본%20명령어.md)
 - [linux 네트워크 관련 명령](OS-linux/linux%20네트워크%20관련%20명령.md)
+- [linux 메모리 캐시 정리](OS-linux/linux%20메모리%20캐시%20정리.md)
 - [linux 문제 해결](OS-linux/linux%20문제%20해결.md)
 - [proxmox](OS-linux/proxmox.md)
 - [proxmox설정](OS-linux/proxmox설정.md)
