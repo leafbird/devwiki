@@ -18,6 +18,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 * [OS-Mac](#os-mac)
 * [OS-linux](#os-linux)
   * [Arch](#arch)
+  * [Proxmox](#proxmox)
   * [mount](#mount)
 * [OS-윈도우](#os-윈도우)
   * [Wsl](#wsl)
@@ -81,8 +82,6 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [linux 네트워크 관련 명령](OS-linux/linux%20네트워크%20관련%20명령.md)
 - [linux 메모리 캐시 정리](OS-linux/linux%20메모리%20캐시%20정리.md)
 - [linux 문제 해결](OS-linux/linux%20문제%20해결.md)
-- [proxmox 초기세팅](OS-linux/proxmox%20초기세팅.md)
-- [proxmox설정](OS-linux/proxmox설정.md)
 - [raspberry pi](OS-linux/raspberry%20pi.md)
 - [samba](OS-linux/samba.md)
 - [SETUID](OS-linux/SETUID.md)
@@ -95,6 +94,12 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [arch 설치](OS-linux/Arch/arch%20설치.md)
 - [arch network](OS-linux/Arch/arch%20network.md)
 - [arch on MBR partition](OS-linux/Arch/arch%20on%20MBR%20partition.md)
+
+#### Proxmox
+
+- [guest linux vm 용량 확장](OS-linux/Proxmox/guest%20linux%20vm%20용량%20확장.md)
+- [proxmox 초기세팅](OS-linux/Proxmox/proxmox%20초기세팅.md)
+- [proxmox설정](OS-linux/Proxmox/proxmox설정.md)
 
 #### mount
 
