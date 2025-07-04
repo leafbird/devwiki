@@ -72,6 +72,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 ### OS-Mac
 
 - [mac](OS-Mac/mac.md)
+- [ssh 접속 포트 변경](OS-Mac/ssh%20접속%20포트%20변경.md)
 
 ### OS-linux
 
@@ -157,7 +158,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 ### 버전관리
 
 - [git submodule](버전관리/git%20submodule.md)
-- [git](버전관리/git.md)
+- [Git](버전관리/Git.md)
 - [perforce](버전관리/perforce.md)
 
 ### 블로그
