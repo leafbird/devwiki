@@ -67,6 +67,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 ### K8s
 
 - [k8s 설치 로그](K8s/k8s%20설치%20로그.md)
+- [k9s](K8s/k9s.md)
 - [Kiamol note](K8s/Kiamol%20note.md)
 
 ### OS-Mac
