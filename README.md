@@ -194,6 +194,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### TIL
 
+- [250806 - nats](TIL/250806%20-%20nats.md)
 - [250516 - libsasl2-modules](TIL/250516%20-%20libsasl2-modules.md)
 - [250430 - k3s on baremetal](TIL/250430%20-%20k3s%20on%20baremetal.md)
 - [250428 - powershell module](TIL/250428%20-%20powershell%20module.md)
