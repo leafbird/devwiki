@@ -9,7 +9,7 @@ link : https://bakingdevlog.tistory.com/13
 1. https://nginx.org/en/download.html 에서 윈도우용 nginx 다운로드
 2. 압축 해제
 3. `nginx.exe` 실행
-4. `http://localhost` 에서 접속 확인
+4. `http://localhostt` 에서 접속 확인
 
 ## root 디렉토리 변경
 
