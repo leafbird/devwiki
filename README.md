@@ -194,6 +194,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### TIL
 
+- [250905 - nginx on windows](TIL/250905%20-%20nginx%20on%20windows.md)
 - [250810 - nats.net](TIL/250810%20-%20nats.net.md)
 - [250806 - nats](TIL/250806%20-%20nats.md)
 - [250516 - libsasl2-modules](TIL/250516%20-%20libsasl2-modules.md)
