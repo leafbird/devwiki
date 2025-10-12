@@ -146,6 +146,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### 미분류
 
+- [구글도서 킨들 변환](미분류/구글도서%20킨들%20변환.md)
 - [devenv commandline](미분류/devenv%20commandline.md)
 - [redmine](미분류/redmine.md)
 - [slack bot setting](미분류/slack%20bot%20setting.md)
@@ -159,7 +160,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 ### 버전관리
 
 - [git submodule](버전관리/git%20submodule.md)
-- [Git](버전관리/Git.md)
+- [git](버전관리/git.md)
 - [perforce](버전관리/perforce.md)
 
 ### 블로그
