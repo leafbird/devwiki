@@ -27,6 +27,14 @@ wsl --unregister ubuntu # 배포판 삭제. --install 로 설치한 배포판은
 C:\Users\<유저이름>\AppData\Local\Packages\<배포판이름>\LocalState
 ```
 
+2025-10-14. 커맨드창에서 `wsl --install Ubuntu`로 설치한 distro는 다음의 경로에 있다.
+
+```
+C:\Users\<유저이름>\AppData\Local\wsl\{GUID-FORMAT}
+레지스트리의 HKCU\Software\Microsoft\Windows\CurrentVersion\Lxss\{GUID-FORMAT} 의 BasePath 항목에 있음.
+```
+
+
 ## 설정파일
 
 상세 설명 : https://learn.microsoft.com/ko-kr/windows/wsl/wsl-config
