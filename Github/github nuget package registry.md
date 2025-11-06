@@ -43,6 +43,7 @@ dotnet nuget add source "https://nuget.pkg.github.com/StudioBside/index.json" `
   --password YOUR_GITHUB_TOKEN `
   --store-password-in-clear-text
 ```
+
 Linux / MacOS: (줄바꿈 표기만 다름)
 
 ```sh
@@ -62,15 +63,27 @@ deploy tokens 발급 : project settings > repository > deploy tokens
 
 사내 gitlab이 https를 사용하지 않으므로 insecure 옵션을 추가해야 함.
 
-```sh 
+Windows:
+
+```powershell 
 dotnet nuget add source "http://gitlab.bside.com/api/v4/projects/94/packages/nuget/index.json" `
  --name gitlab `
  --username buildman `
  --password <YOUR_GITLAB_TOKEN> `
  --store-password-in-clear-text `
  --allow-insecure-connections
- ```
+```
+
+Linux / MacOS: (줄바꿈 표기만 다름)
  
+```sh
+dotnet nuget add source "http://gitlab.bside.com/api/v4/projects/94/packages/nuget/index.json" \
+ --name gitlab \
+ --username buildman \
+ --password <YOUR_GITLAB_TOKEN> \
+ --store-password-in-clear-text \
+ --allow-insecure-connections
+```
 
 ## 레지스트리에 배포된 tool 사용
 
