@@ -121,8 +121,8 @@ dotnet tool update -g TOOL_NAME
 # Not required, but needed to prevent warnings
 nuget setApiKey YOUR_GITHUB_TOKEN -Source "github"
 
-dotnet pack -c Release
-nuget push ./nupkg/star.0.0.6.nupkg -Source "github"
+dotnet pack -c Release --version-suffix 0.0.2
+nuget push ./nupkg/star.0.0.2.nupkg -Source "github"
 ```
 
 설정에 apiKey가 지정 안된 경우 경고 예시:
