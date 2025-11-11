@@ -51,3 +51,11 @@ killall -9 corosync
 umount /etc/pve
 systemctl restart pve-cluster
 ```
+
+
+## vm의 이름 변경
+
+```sh
+qm set [VMID] --name [NAME]
+#ex : qm set 9100 --name ubuntu2404-template
+```
