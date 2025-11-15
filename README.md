@@ -195,6 +195,7 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### TIL
 
+- [251115 - 학습용 k3s 클러스터 구성](TIL/251115%20-%20학습용%20k3s%20클러스터%20구성.md)
 - [250909 - rocky linux](TIL/250909%20-%20rocky%20linux.md)
 - [250905 - nginx on windows](TIL/250905%20-%20nginx%20on%20windows.md)
 - [250810 - nats.net](TIL/250810%20-%20nats.net.md)
