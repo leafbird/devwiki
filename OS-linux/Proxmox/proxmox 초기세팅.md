@@ -6,6 +6,25 @@ GUI에서 enterprise repository를 비활성화하고, community repository를 �
 
 pbs인 경우 ui에서 설정이 안되므로, 터미널에서 직접 설정한다.
 
+251229. pbs 4.x (trixie 계열)에서는 기존 방식이 동작하지 않아 grok이 알려준 아래 방법으로 처리
+
+```sh
+vi /etc/apt/sources.list.d/pbs-enterprise.sources
+# 파일 끝에 다음 줄 추가
+Enabled: false
+
+# 새 파일 생성
+cat > /etc/apt/sources.list.d/pbs-no-subscription.sources <<EOF
+Types: deb
+URIs: http://download.proxmox.com/debian/pbs
+Suites: trixie
+Components: pbs-no-subscription
+Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg
+EOF
+
+apt update
+```
+
 ```sh
 sudo vim /etc/apt/sources.list.d/pbs-enterprise.list
 
