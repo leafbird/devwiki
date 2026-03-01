@@ -20,7 +20,6 @@
 * [OS-Mac](#os-mac)
 * [OS-윈도우](#os-윈도우)
   * [Wsl](#wsl)
-* [TIL](#til)
 * [todo](#todo)
 * [Vim](#vim)
 * [Xml](#xml)
@@ -34,6 +33,7 @@
 * [웹 프로그래밍](#웹-프로그래밍)
 * [클라우드](#클라우드)
 * [하드웨어](#하드웨어)
+* [TIL](#til)
 
 ---
 
@@ -123,32 +123,6 @@
 - [wsl export](OS-%EC%9C%88%EB%8F%84%EC%9A%B0/Wsl/wsl%20export.md)
 - [wsl tips](OS-%EC%9C%88%EB%8F%84%EC%9A%B0/Wsl/wsl%20tips.md)
 
-### TIL
-
-- [240113 - dotnet-script 리서치](TIL/240113%20-%20dotnet-script%20%EB%A6%AC%EC%84%9C%EC%B9%98.md)
-- [240114 - csx로 sitemap maker 첫 작업](TIL/240114%20-%20csx%EB%A1%9C%20sitemap%20maker%20%EC%B2%AB%20%EC%9E%91%EC%97%85.md)
-- [240118 - EnableWindowsTargeting](TIL/240118%20-%20EnableWindowsTargeting.md)
-- [240127 - csx 스트립트 패키징하기](TIL/240127%20-%20csx%20%EC%8A%A4%ED%8A%B8%EB%A6%BD%ED%8A%B8%20%ED%8C%A8%ED%82%A4%EC%A7%95%ED%95%98%EA%B8%B0.md)
-- [240324 - raspberryOS](TIL/240324%20-%20raspberryOS.md)
-- [240331 - confluence api v2](TIL/240331%20-%20confluence%20api%20v2.md)
-- [240919 - wpf margin and filtering](TIL/240919%20-%20wpf%20margin%20and%20filtering.md)
-- [250126 - ubuntu server에 xfcd 설치](TIL/250126%20-%20ubuntu%20server%EC%97%90%20xfcd%20%EC%84%A4%EC%B9%98.md)
-- [250308 - arch tty 설정](TIL/250308%20-%20arch%20tty%20%EC%84%A4%EC%A0%95.md)
-- [250309 - arch hyprland 설정](TIL/250309%20-%20arch%20hyprland%20%EC%84%A4%EC%A0%95.md)
-- [250403 - jwt](TIL/250403%20-%20jwt.md)
-- [250413 - k3s on lxc](TIL/250413%20-%20k3s%20on%20lxc.md)
-- [250419 - colima](TIL/250419%20-%20colima.md)
-- [250425 - k8s nodeport](TIL/250425%20-%20k8s%20nodeport.md)
-- [250428 - powershell module](TIL/250428%20-%20powershell%20module.md)
-- [250430 - k3s on baremetal](TIL/250430%20-%20k3s%20on%20baremetal.md)
-- [250516 - libsasl2-modules](TIL/250516%20-%20libsasl2-modules.md)
-- [250806 - nats](TIL/250806%20-%20nats.md)
-- [250810 - nats.net](TIL/250810%20-%20nats.net.md)
-- [250905 - nginx on windows](TIL/250905%20-%20nginx%20on%20windows.md)
-- [250909 - rocky linux](TIL/250909%20-%20rocky%20linux.md)
-- [251115 - 학습용 k3s 클러스터 구성](TIL/251115%20-%20%ED%95%99%EC%8A%B5%EC%9A%A9%20k3s%20%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%20%EA%B5%AC%EC%84%B1.md)
-- [251128 - vs2026](TIL/251128%20-%20vs2026.md)
-
 ### todo
 
 - [ragflow-도입-가이드](todo/ragflow-%EB%8F%84%EC%9E%85-%EA%B0%80%EC%9D%B4%EB%93%9C.md)
@@ -222,5 +196,31 @@
 ### 하드웨어
 
 - [디스크파티션](%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4/%EB%94%94%EC%8A%A4%ED%81%AC%ED%8C%8C%ED%8B%B0%EC%85%98.md)
+
+### TIL
+
+- [251128 - vs2026](TIL/251128%20-%20vs2026.md)
+- [251115 - 학습용 k3s 클러스터 구성](TIL/251115%20-%20%ED%95%99%EC%8A%B5%EC%9A%A9%20k3s%20%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%20%EA%B5%AC%EC%84%B1.md)
+- [250909 - rocky linux](TIL/250909%20-%20rocky%20linux.md)
+- [250905 - nginx on windows](TIL/250905%20-%20nginx%20on%20windows.md)
+- [250810 - nats.net](TIL/250810%20-%20nats.net.md)
+- [250806 - nats](TIL/250806%20-%20nats.md)
+- [250516 - libsasl2-modules](TIL/250516%20-%20libsasl2-modules.md)
+- [250430 - k3s on baremetal](TIL/250430%20-%20k3s%20on%20baremetal.md)
+- [250428 - powershell module](TIL/250428%20-%20powershell%20module.md)
+- [250425 - k8s nodeport](TIL/250425%20-%20k8s%20nodeport.md)
+- [250419 - colima](TIL/250419%20-%20colima.md)
+- [250413 - k3s on lxc](TIL/250413%20-%20k3s%20on%20lxc.md)
+- [250403 - jwt](TIL/250403%20-%20jwt.md)
+- [250309 - arch hyprland 설정](TIL/250309%20-%20arch%20hyprland%20%EC%84%A4%EC%A0%95.md)
+- [250308 - arch tty 설정](TIL/250308%20-%20arch%20tty%20%EC%84%A4%EC%A0%95.md)
+- [250126 - ubuntu server에 xfcd 설치](TIL/250126%20-%20ubuntu%20server%EC%97%90%20xfcd%20%EC%84%A4%EC%B9%98.md)
+- [240919 - wpf margin and filtering](TIL/240919%20-%20wpf%20margin%20and%20filtering.md)
+- [240331 - confluence api v2](TIL/240331%20-%20confluence%20api%20v2.md)
+- [240324 - raspberryOS](TIL/240324%20-%20raspberryOS.md)
+- [240127 - csx 스트립트 패키징하기](TIL/240127%20-%20csx%20%EC%8A%A4%ED%8A%B8%EB%A6%BD%ED%8A%B8%20%ED%8C%A8%ED%82%A4%EC%A7%95%ED%95%98%EA%B8%B0.md)
+- [240118 - EnableWindowsTargeting](TIL/240118%20-%20EnableWindowsTargeting.md)
+- [240114 - csx로 sitemap maker 첫 작업](TIL/240114%20-%20csx%EB%A1%9C%20sitemap%20maker%20%EC%B2%AB%20%EC%9E%91%EC%97%85.md)
+- [240113 - dotnet-script 리서치](TIL/240113%20-%20dotnet-script%20%EB%A6%AC%EC%84%9C%EC%B9%98.md)
 
 <!-- sitemap end -->
