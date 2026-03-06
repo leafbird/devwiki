@@ -84,6 +84,7 @@
 - [swap](OS-linux/swap.md)
 - [ubuntu desktop 설정](OS-linux/ubuntu%20desktop%20%EC%84%A4%EC%A0%95.md)
 - [ubuntu server 설정](OS-linux/ubuntu%20server%20%EC%84%A4%EC%A0%95.md)
+- [yazi cheat sheet](OS-linux/yazi%20cheat%20sheet.md)
 
 #### Arch
 
