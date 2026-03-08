@@ -1,0 +1,36 @@
+name: Deploy Wiki
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - run: pip install "mkdocs-material" "mkdocs-awesome-pages-plugin" "mkdocs<2"
+
+      - name: Prepare docs directory
+        run: |
+          mkdir -p docs
+          for dir in */; do
+            d="${dir%/}"
+            case "$d" in
+              .github|.vscode|.claude|packages|site|docs) continue ;;
+              *) cp -r "$d" "docs/$d" ;;
+            esac
+          done
+          cp README.md docs/index.md
+          cp -r stylesheets docs/stylesheets
+
+      - run: mkdocs gh-deploy --force
