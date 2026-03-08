@@ -2,8 +2,6 @@
 
 개발에 관련된 메모를 적어둡니다.
 
-readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 정리했고요. 손으로 적는 건 아니고 파일 목록을 기반으로 자동으로 적어주는 [csx script](https://github.com/leafbird/SitemapMaker.git)를 만들어 생성했습니다.
-
 ---
 
 <!-- sitemap start -->
@@ -15,13 +13,14 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
   * [Wpf](#wpf)
 * [Github](#github)
 * [K8s](#k8s)
-* [OS-Mac](#os-mac)
 * [OS-linux](#os-linux)
   * [Arch](#arch)
-  * [Proxmox](#proxmox)
   * [mount](#mount)
+  * [Proxmox](#proxmox)
+* [OS-Mac](#os-mac)
 * [OS-윈도우](#os-윈도우)
   * [Wsl](#wsl)
+* [todo](#todo)
 * [Vim](#vim)
 * [Xml](#xml)
 * [데이터베이스](#데이터베이스)
@@ -56,8 +55,8 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 #### Wpf
 
-- [이전 실행 창 크기 위치 기억하기](Csharp/Wpf/이전%20실행%20창%20크기%20위치%20기억하기.md)
 - [WPF-old](Csharp/Wpf/WPF-old.md)
+- [이전 실행 창 크기 위치 기억하기](Csharp/Wpf/%EC%9D%B4%EC%A0%84%20%EC%8B%A4%ED%96%89%20%EC%B0%BD%20%ED%81%AC%EA%B8%B0%20%EC%9C%84%EC%B9%98%20%EA%B8%B0%EC%96%B5%ED%95%98%EA%B8%B0.md)
 
 ### Github
 
@@ -66,63 +65,69 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### K8s
 
-- [k8s 설치 로그](K8s/k8s%20설치%20로그.md)
+- [k8s 설치 로그](K8s/k8s%20%EC%84%A4%EC%B9%98%20%EB%A1%9C%EA%B7%B8.md)
 - [k9s](K8s/k9s.md)
 - [Kiamol note](K8s/Kiamol%20note.md)
-
-### OS-Mac
-
-- [mac](OS-Mac/mac.md)
-- [ssh 접속 포트 변경](OS-Mac/ssh%20접속%20포트%20변경.md)
 
 ### OS-linux
 
 - [busybox](OS-linux/busybox.md)
 - [crontab](OS-linux/crontab.md)
 - [docker](OS-linux/docker.md)
-- [linux 기본 명령어](OS-linux/linux%20기본%20명령어.md)
-- [linux 네트워크 관련 명령](OS-linux/linux%20네트워크%20관련%20명령.md)
-- [linux 메모리 캐시 정리](OS-linux/linux%20메모리%20캐시%20정리.md)
-- [linux 문제 해결](OS-linux/linux%20문제%20해결.md)
+- [linux 기본 명령어](OS-linux/linux%20%EA%B8%B0%EB%B3%B8%20%EB%AA%85%EB%A0%B9%EC%96%B4.md)
+- [linux 네트워크 관련 명령](OS-linux/linux%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EA%B4%80%EB%A0%A8%20%EB%AA%85%EB%A0%B9.md)
+- [linux 메모리 캐시 정리](OS-linux/linux%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%BA%90%EC%8B%9C%20%EC%A0%95%EB%A6%AC.md)
+- [linux 문제 해결](OS-linux/linux%20%EB%AC%B8%EC%A0%9C%20%ED%95%B4%EA%B2%B0.md)
 - [raspberry pi](OS-linux/raspberry%20pi.md)
 - [samba](OS-linux/samba.md)
 - [SETUID](OS-linux/SETUID.md)
 - [swap](OS-linux/swap.md)
-- [ubuntu desktop 설정](OS-linux/ubuntu%20desktop%20설정.md)
-- [ubuntu server 설정](OS-linux/ubuntu%20server%20설정.md)
+- [ubuntu desktop 설정](OS-linux/ubuntu%20desktop%20%EC%84%A4%EC%A0%95.md)
+- [ubuntu server 설정](OS-linux/ubuntu%20server%20%EC%84%A4%EC%A0%95.md)
+- [yazi cheat sheet](OS-linux/yazi%20cheat%20sheet.md)
 
 #### Arch
 
-- [arch 설치](OS-linux/Arch/arch%20설치.md)
 - [arch network](OS-linux/Arch/arch%20network.md)
 - [arch on MBR partition](OS-linux/Arch/arch%20on%20MBR%20partition.md)
-
-#### Proxmox
-
-- [guest linux vm 용량 확장](OS-linux/Proxmox/guest%20linux%20vm%20용량%20확장.md)
-- [proxmox 초기세팅](OS-linux/Proxmox/proxmox%20초기세팅.md)
-- [proxmox설정](OS-linux/Proxmox/proxmox설정.md)
+- [arch 설치](OS-linux/Arch/arch%20%EC%84%A4%EC%B9%98.md)
 
 #### mount
 
-- [하드디스크 추가마운트하기](OS-linux/mount/하드디스크%20추가마운트하기.md)
-- [linux 하드디스크 추가방법](OS-linux/mount/linux%20하드디스크%20추가방법.md)
+- [linux 하드디스크 추가방법](OS-linux/mount/linux%20%ED%95%98%EB%93%9C%EB%94%94%EC%8A%A4%ED%81%AC%20%EC%B6%94%EA%B0%80%EB%B0%A9%EB%B2%95.md)
+- [하드디스크 추가마운트하기](OS-linux/mount/%ED%95%98%EB%93%9C%EB%94%94%EC%8A%A4%ED%81%AC%20%EC%B6%94%EA%B0%80%EB%A7%88%EC%9A%B4%ED%8A%B8%ED%95%98%EA%B8%B0.md)
+
+#### Proxmox
+
+- [guest linux vm 용량 확장](OS-linux/Proxmox/guest%20linux%20vm%20%EC%9A%A9%EB%9F%89%20%ED%99%95%EC%9E%A5.md)
+- [proxmox 초기세팅](OS-linux/Proxmox/proxmox%20%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85.md)
+- [proxmox설정](OS-linux/Proxmox/proxmox%EC%84%A4%EC%A0%95.md)
+
+### OS-Mac
+
+- [mac](OS-Mac/mac.md)
+- [ssh 접속 포트 변경](OS-Mac/ssh%20%EC%A0%91%EC%86%8D%20%ED%8F%AC%ED%8A%B8%20%EB%B3%80%EA%B2%BD.md)
 
 ### OS-윈도우
 
-- [BatchFile](OS-윈도우/BatchFile.md)
-- [diskpart](OS-윈도우/diskpart.md)
-- [hyper-v](OS-윈도우/hyper-v.md)
-- [IIS](OS-윈도우/IIS.md)
-- [LargeAddressAware](OS-윈도우/LargeAddressAware.md)
-- [windows terminal](OS-윈도우/windows%20terminal.md)
-- [windows](OS-윈도우/windows.md)
+- [BatchFile](OS-%EC%9C%88%EB%8F%84%EC%9A%B0/BatchFile.md)
+- [diskpart](OS-%EC%9C%88%EB%8F%84%EC%9A%B0/diskpart.md)
+- [hyper-v](OS-%EC%9C%88%EB%8F%84%EC%9A%B0/hyper-v.md)
+- [IIS](OS-%EC%9C%88%EB%8F%84%EC%9A%B0/IIS.md)
+- [LargeAddressAware](OS-%EC%9C%88%EB%8F%84%EC%9A%B0/LargeAddressAware.md)
+- [windows terminal](OS-%EC%9C%88%EB%8F%84%EC%9A%B0/windows%20terminal.md)
+- [windows](OS-%EC%9C%88%EB%8F%84%EC%9A%B0/windows.md)
 
 #### Wsl
 
-- [wsl basic](OS-윈도우/Wsl/wsl%20basic.md)
-- [wsl export](OS-윈도우/Wsl/wsl%20export.md)
-- [wsl tips](OS-윈도우/Wsl/wsl%20tips.md)
+- [wsl basic](OS-%EC%9C%88%EB%8F%84%EC%9A%B0/Wsl/wsl%20basic.md)
+- [wsl export](OS-%EC%9C%88%EB%8F%84%EC%9A%B0/Wsl/wsl%20export.md)
+- [wsl tips](OS-%EC%9C%88%EB%8F%84%EC%9A%B0/Wsl/wsl%20tips.md)
+
+### todo
+
+- [ragflow-도입-가이드](todo/ragflow-%EB%8F%84%EC%9E%85-%EA%B0%80%EC%9D%B4%EB%93%9C.md)
+- [ragflow-증분동기화-가이드](todo/ragflow-%EC%A6%9D%EB%B6%84%EB%8F%99%EA%B8%B0%ED%99%94-%EA%B0%80%EC%9D%B4%EB%93%9C.md)
 
 ### Vim
 
@@ -136,67 +141,68 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 
 ### 데이터베이스
 
-- [MsSql](데이터베이스/MsSql.md)
-- [SQLite](데이터베이스/SQLite.md)
+- [MsSql](%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/MsSql.md)
+- [SQLite](%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/SQLite.md)
 
 ### 디버깅
 
-- [symbol server](디버깅/symbol%20server.md)
-- [windbg](디버깅/windbg.md)
+- [symbol server](%EB%94%94%EB%B2%84%EA%B9%85/symbol%20server.md)
+- [windbg](%EB%94%94%EB%B2%84%EA%B9%85/windbg.md)
 
 ### 미분류
 
-- [구글도서 킨들 변환](미분류/구글도서%20킨들%20변환.md)
-- [devenv commandline](미분류/devenv%20commandline.md)
-- [redmine](미분류/redmine.md)
-- [slack bot setting](미분류/slack%20bot%20setting.md)
-- [socket](미분류/socket.md)
-- [ssh](미분류/ssh.md)
-- [Sublime Text](미분류/Sublime%20Text.md)
-- [Teamcity](미분류/Teamcity.md)
-- [Template Engine](미분류/Template%20Engine.md)
-- [unity3d](미분류/unity3d.md)
+- [devenv commandline](%EB%AF%B8%EB%B6%84%EB%A5%98/devenv%20commandline.md)
+- [redmine](%EB%AF%B8%EB%B6%84%EB%A5%98/redmine.md)
+- [slack bot setting](%EB%AF%B8%EB%B6%84%EB%A5%98/slack%20bot%20setting.md)
+- [socket](%EB%AF%B8%EB%B6%84%EB%A5%98/socket.md)
+- [ssh](%EB%AF%B8%EB%B6%84%EB%A5%98/ssh.md)
+- [Sublime Text](%EB%AF%B8%EB%B6%84%EB%A5%98/Sublime%20Text.md)
+- [Teamcity](%EB%AF%B8%EB%B6%84%EB%A5%98/Teamcity.md)
+- [Template Engine](%EB%AF%B8%EB%B6%84%EB%A5%98/Template%20Engine.md)
+- [unity3d](%EB%AF%B8%EB%B6%84%EB%A5%98/unity3d.md)
+- [구글도서 킨들 변환](%EB%AF%B8%EB%B6%84%EB%A5%98/%EA%B5%AC%EA%B8%80%EB%8F%84%EC%84%9C%20%ED%82%A8%EB%93%A4%20%EB%B3%80%ED%99%98.md)
 
 ### 버전관리
 
-- [git submodule](버전관리/git%20submodule.md)
-- [Git](버전관리/Git.md)
-- [perforce](버전관리/perforce.md)
+- [git submodule](%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC/git%20submodule.md)
+- [git](%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC/git.md)
+- [perforce](%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC/perforce.md)
 
 ### 블로그
 
-- [hexo](블로그/hexo.md)
+- [hexo](%EB%B8%94%EB%A1%9C%EA%B7%B8/hexo.md)
 
 ### 스크립트
 
-- [lua](스크립트/lua.md)
-- [PowerShell](스크립트/PowerShell.md)
-- [python](스크립트/python.md)
+- [lua](%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/lua.md)
+- [PowerShell](%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/PowerShell.md)
+- [python](%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/python.md)
 
 ### 어피니티 포토
 
-- [레이어 전체 색칠하기(배경색)](어피니티%20포토/레이어%20전체%20색칠하기(배경색).md)
-- [모서리가 둥근 사각형 선택](어피니티%20포토/모서리가%20둥근%20사각형%20선택.md)
+- [레이어 전체 색칠하기(배경색)](%EC%96%B4%ED%94%BC%EB%8B%88%ED%8B%B0%20%ED%8F%AC%ED%86%A0/%EB%A0%88%EC%9D%B4%EC%96%B4%20%EC%A0%84%EC%B2%B4%20%EC%83%89%EC%B9%A0%ED%95%98%EA%B8%B0%28%EB%B0%B0%EA%B2%BD%EC%83%89%29.md)
+- [모서리가 둥근 사각형 선택](%EC%96%B4%ED%94%BC%EB%8B%88%ED%8B%B0%20%ED%8F%AC%ED%86%A0/%EB%AA%A8%EC%84%9C%EB%A6%AC%EA%B0%80%20%EB%91%A5%EA%B7%BC%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%84%A0%ED%83%9D.md)
+- [이미지 라운드 엣지(둥근 모서리) 처리 방법](%EC%96%B4%ED%94%BC%EB%8B%88%ED%8B%B0%20%ED%8F%AC%ED%86%A0/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%9D%BC%EC%9A%B4%EB%93%9C%20%EC%97%A3%EC%A7%80%28%EB%91%A5%EA%B7%BC%20%EB%AA%A8%EC%84%9C%EB%A6%AC%29%20%EC%B2%98%EB%A6%AC%20%EB%B0%A9%EB%B2%95.md)
 
 ### 웹 프로그래밍
 
-- [asp.net](웹%20프로그래밍/asp.net.md)
-- [CORS](웹%20프로그래밍/CORS.md)
+- [asp.net](%EC%9B%B9%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/asp.net.md)
+- [CORS](%EC%9B%B9%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/CORS.md)
 
 ### 클라우드
 
-- [awscli](클라우드/awscli.md)
-- [azure-common](클라우드/azure-common.md)
-- [azure-vmClone](클라우드/azure-vmClone.md)
+- [awscli](%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/awscli.md)
+- [azure-common](%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/azure-common.md)
+- [azure-vmClone](%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C/azure-vmClone.md)
 
 ### 하드웨어
 
-- [디스크파티션](하드웨어/디스크파티션.md)
+- [디스크파티션](%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4/%EB%94%94%EC%8A%A4%ED%81%AC%ED%8C%8C%ED%8B%B0%EC%85%98.md)
 
 ### TIL
 
 - [251128 - vs2026](TIL/251128%20-%20vs2026.md)
-- [251115 - 학습용 k3s 클러스터 구성](TIL/251115%20-%20학습용%20k3s%20클러스터%20구성.md)
+- [251115 - 학습용 k3s 클러스터 구성](TIL/251115%20-%20%ED%95%99%EC%8A%B5%EC%9A%A9%20k3s%20%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%20%EA%B5%AC%EC%84%B1.md)
 - [250909 - rocky linux](TIL/250909%20-%20rocky%20linux.md)
 - [250905 - nginx on windows](TIL/250905%20-%20nginx%20on%20windows.md)
 - [250810 - nats.net](TIL/250810%20-%20nats.net.md)
@@ -208,15 +214,15 @@ readme는 [jbranchaud/til](https://github.com/jbranchaud/til)을 참고해서 �
 - [250419 - colima](TIL/250419%20-%20colima.md)
 - [250413 - k3s on lxc](TIL/250413%20-%20k3s%20on%20lxc.md)
 - [250403 - jwt](TIL/250403%20-%20jwt.md)
-- [250309 - arch hyprland 설정](TIL/250309%20-%20arch%20hyprland%20설정.md)
-- [250308 - arch tty 설정](TIL/250308%20-%20arch%20tty%20설정.md)
-- [250126 - ubuntu server에 xfcd 설치](TIL/250126%20-%20ubuntu%20server에%20xfcd%20설치.md)
+- [250309 - arch hyprland 설정](TIL/250309%20-%20arch%20hyprland%20%EC%84%A4%EC%A0%95.md)
+- [250308 - arch tty 설정](TIL/250308%20-%20arch%20tty%20%EC%84%A4%EC%A0%95.md)
+- [250126 - ubuntu server에 xfcd 설치](TIL/250126%20-%20ubuntu%20server%EC%97%90%20xfcd%20%EC%84%A4%EC%B9%98.md)
 - [240919 - wpf margin and filtering](TIL/240919%20-%20wpf%20margin%20and%20filtering.md)
 - [240331 - confluence api v2](TIL/240331%20-%20confluence%20api%20v2.md)
 - [240324 - raspberryOS](TIL/240324%20-%20raspberryOS.md)
-- [240127 - csx 스트립트 패키징하기](TIL/240127%20-%20csx%20스트립트%20패키징하기.md)
+- [240127 - csx 스트립트 패키징하기](TIL/240127%20-%20csx%20%EC%8A%A4%ED%8A%B8%EB%A6%BD%ED%8A%B8%20%ED%8C%A8%ED%82%A4%EC%A7%95%ED%95%98%EA%B8%B0.md)
 - [240118 - EnableWindowsTargeting](TIL/240118%20-%20EnableWindowsTargeting.md)
-- [240114 - csx로 sitemap maker 첫 작업](TIL/240114%20-%20csx로%20sitemap%20maker%20첫%20작업.md)
-- [240113 - dotnet-script 리서치](TIL/240113%20-%20dotnet-script%20리서치.md)
+- [240114 - csx로 sitemap maker 첫 작업](TIL/240114%20-%20csx%EB%A1%9C%20sitemap%20maker%20%EC%B2%AB%20%EC%9E%91%EC%97%85.md)
+- [240113 - dotnet-script 리서치](TIL/240113%20-%20dotnet-script%20%EB%A6%AC%EC%84%9C%EC%B9%98.md)
 
 <!-- sitemap end -->
