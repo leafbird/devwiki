@@ -1,0 +1,45 @@
+site_name: DevWiki
+site_description: 개발에 관련된 메모
+docs_dir: docs
+
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  font: false
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 다크 모드로 전환
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 라이트 모드로 전환
+
+plugins:
+  - search:
+      lang:
+        - ko
+        - en
+  - awesome-pages
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - toc:
+      permalink: true
+
+extra_css:
+  - https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css
+  - stylesheets/custom.css
