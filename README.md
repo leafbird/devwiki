@@ -197,6 +197,7 @@
 
 ### 하드웨어
 
+- [PMO-Wave75-키보드-복구](%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4/PMO-Wave75-%ED%82%A4%EB%B3%B4%EB%93%9C-%EB%B3%B5%EA%B5%AC.md)
 - [디스크파티션](%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4/%EB%94%94%EC%8A%A4%ED%81%AC%ED%8C%8C%ED%8B%B0%EC%85%98.md)
 
 ### TIL
