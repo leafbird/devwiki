@@ -1,0 +1,10 @@
+FROM mcr.microsoft.com/dotnet/sdk:9.0
+
+ARG USERNAME
+ARG PASSWORD
+
+RUN useradd -m ${USERNAME}
+RUN bash -c "echo -e '${PASSWORD}\n${PASSWORD}\n' | passwd ${USERNAME}"
+RUN bash -c "echo -e '[user]\ndefault=${USERNAME}' > /etc/wsl.conf"
+RUN usermod -aG sudo ${USERNAME}
+RUN apt-get update && apt-get install -y sudo
