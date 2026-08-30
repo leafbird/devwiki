@@ -26,14 +26,19 @@ Karabiner-Elements 로 처리한다. 아래 "Karabiner-Elements 키 설정" 참�
 
 현재 걸어둔 규칙 두 가지.
 
-1. **우측 Command 를 탭하면 한/영 토글.** 꾹 눌러 조합키로 쓸 때는 원래 Command 로 동작한다.
-   `to` 에 `right_command` 를 두고 `to_if_alone` 에 `select_input_source` 를 넣는 방식.
-   현재 입력소스에 따라 분기해야 하므로 `input_source_if` 조건으로 manipulator 를 두 개 만든다.
+1. **우측 Command 로 한/영 토글.** 카라비너에서 `right_command` 를 `f18` 로 보내고,
+   시스템 설정 > 키보드 > 단축키 > 입력 소스 에서 입력소스 전환을 `f18` 로 잡아둔다.
+   자세한 건 `~/dotfiles/osx/karabiner/readme.md` 참고.
+
+   등록 확인 : `defaults read com.apple.symbolichotkeys AppleSymbolicHotKeys` 결과에서
+   60(이전 입력 소스 선택) 항목이 `enabled = 1` 이고 파라미터 두 번째 값이 79(=f18)면 정상이다.
 
 2. **Esc 누르면 영문으로 전환.** `to` 에 `escape` 와 `select_input_source`(ABC) 를 같이 넣는다.
 
-한/영 전환은 F18 로 보내고 시스템 설정에서 단축키를 잡는 방식도 있지만,
-`select_input_source` 를 쓰면 시스템 설정 단축키 지정 없이 바로 동작해서 이쪽이 낫다.
+한/영 전환은 `select_input_source` 로 입력소스를 직접 지정하는 방식도 된다.
+시스템 설정 단축키가 필요 없는 대신, 현재 입력소스에 따라 분기해야 해서
+`input_source_if` 조건으로 manipulator 를 두 개 만들어야 한다.
+`to_if_alone` 을 같이 쓰면 우측 Command 를 조합키로도 계속 쓸 수 있다.
 
 #### 특정 키보드에서만 리맵이 안 먹을 때 (중요)
 
@@ -60,12 +65,41 @@ Karabiner 는 포인팅 디바이스를 기본적으로 무시(ignore) 하므로
 ]
 ```
 
+블루투스 저전력(BLE) 키보드는 vendor/product id 가 0 으로 잡히기도 한다.
+이때는 블루투스 주소(`device_address`)로 식별한다. NuPhy Air75 V2 가 이 경우였다.
+
+```json
+{
+    "identifiers": {
+        "device_address": "dc-33-5c-50-a0-3b",
+        "is_keyboard": true,
+        "is_pointing_device": true,
+        "product_id": 0,
+        "vendor_id": 0
+    },
+    "ignore": false
+}
+```
+
+같은 키보드라도 연결 방식(블루투스 / 2.4GHz 동글 / USB 유선)이 바뀌면 다른 기기로 잡히므로
+그때마다 한 번씩 등록해줘야 한다.
+
 다른 키보드는 멀쩡한데 특정 키보드만 안 되면 이 설정부터 확인할 것.
+
+#### 새 키보드 등록 스크립트
+
+카라비너 16.1.0 기준으로 새 기기를 자동으로 허용해주는 전역 옵션은 없다.
+매번 GUI 를 여는 대신 dotfiles 의 스크립트로 등록할 수 있다.
+
+	~/dotfiles/osx/karabiner/register-keyboards.py
+
+연결된 키보드 중 카라비너가 무시하고 있는 것을 찾아 모든 프로필에 등록한다.
+`--dry-run` 을 주면 변경 없이 확인만 한다. 실행 전 설정 파일은 자동 백업된다.
 
 진단할 때 순서
 1. EventViewer 에 키 이벤트가 뜨는지 → 안 뜨면 입력 모니터링 권한 문제
 2. 이벤트는 뜨는데 리맵이 안 되면, 임시로 아무 키나 다른 글자로 바꾸는 규칙을 넣어 리맵 자체가 도는지 확인
-3. 리맵은 되는데 한/영만 안 되면 `select_input_source` / 입력소스 id 쪽 문제
+3. 리맵은 되는데 한/영만 안 되면 f18 시스템 단축키 / 입력소스 id 쪽 문제
 4. 특정 키보드에서만 전부 안 되면 위의 Devices 설정 문제
 
 ## 초기 설정
